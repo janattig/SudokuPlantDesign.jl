@@ -1,0 +1,4 @@
+name = "SudokuPlantDesign"
+uuid = "89b4fab0-2f28-41bc-964f-884dedc0e1f4"
+authors = ["Jan Attig <jan.attig@googlemail.com>"]
+version = "0.1.0"
