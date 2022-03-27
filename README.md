@@ -8,13 +8,13 @@ Julia package for Sudoku-like plant design
 
 You can install the package via the package mode in Julia (Pkg). However, since the package
 is not listed in the Julia package repositories install as
-```julia
-(v1.0) pkg> add "https://github.com/janattig/SudokuPlantDesign.jl"
+```julia-REPL
+add "https://github.com/janattig/SudokuPlantDesign.jl"
 ```
 
 ## Usage
 
 You can use the code after having it installed by importing the module as
-```julia-REPL
-julia> using SudokuPlantDesign
+```julia
+using SudokuPlantDesign
 ```
