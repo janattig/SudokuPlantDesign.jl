@@ -17,7 +17,7 @@ module SudokuPlantDesign
     # include files for monte carlo
     include("monte_carlo/update_type_definition.jl")
     include("monte_carlo/updates/concrete_update_insert_remove.jl")
-    include("monte_carlo/updates/concrete_update_new_check.jl")
+    include("monte_carlo/updates/concrete_update_new_check_label.jl")
     include("monte_carlo/updates/concrete_update_swap_check_check.jl")
     include("monte_carlo/updates/concrete_update_swap_check_genotype.jl")
 

@@ -2,7 +2,7 @@
 # INSERT CHECK (into previously plot =0 field)
 ###################
 
-mutable struct UpdateInsertCheck <: Update
+mutable struct UpdateInsertCheck <: AbstractUpdate
 
     # position
     i :: Int64
@@ -28,7 +28,7 @@ function reverse_update!(conf :: C, updt :: UpdateInsertCheck) where {C <: Check
     set_genotype!(conf, updt.i,updt.j)
 end
 
-function new_move!(updt :: UpdateInsertCheck, conf :: C) where {C <: CheckConfiguration}
+function generate!(updt :: UpdateInsertCheck, conf :: C) where {C <: CheckConfiguration}
     # find suitable position
     updt.i = rand(1:sizex(conf))
     updt.j = rand(1:sizey(conf))
