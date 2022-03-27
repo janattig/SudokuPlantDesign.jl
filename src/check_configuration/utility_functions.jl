@@ -14,7 +14,6 @@ function empty_plots!(
     empty_plots!(conf, i_min:i_max, j_min:j_max)
 
 end
-
 function empty_plots!(
         conf :: C,
         i_range :: UnitRange{Int64},
@@ -29,6 +28,7 @@ function empty_plots!(
     end
 
 end
+export empty_plots!
 
 function empty_plots_in_block!(
         conf :: C,
@@ -44,6 +44,7 @@ function empty_plots_in_block!(
     end
 
 end
+export empty_plots_in_block!
 
 
 
@@ -73,6 +74,7 @@ function initialize_checks!(conf :: C, num_checks :: Int64) where {C <: CheckCon
         set_check!(conf, i,j, c)
     end
 end
+export initialize_checks!
 
 function initialize_checks_per_block!(conf :: C) where {C <: CheckConfiguration}
     # iterate over all blocks
@@ -107,6 +109,7 @@ function initialize_checks_per_block!(conf :: C) where {C <: CheckConfiguration}
     end
     end
 end
+export initialize_checks_per_block!
 
 function initialize_genotypes!(conf :: C, num_genotypes :: Int64) where {C <: CheckConfiguration}
     # set every non-(-1) element to a random check
@@ -130,6 +133,7 @@ function initialize_genotypes!(conf :: C, num_genotypes :: Int64) where {C <: Ch
         set_genotype!(conf, i,j)
     end
 end
+export initialize_genotypes!
 
 
 
@@ -199,7 +203,7 @@ function show_configuration(
     # tighten the layout
     tight_layout()
 end
-
+export show_configuration
 
 
 
@@ -237,6 +241,7 @@ function save_configuration(conf :: C, filename :: String) where {C <: CheckConf
 
     close(f)
 end
+export save_configuration
 
 function load_configuration(filename :: String)
     # liest zeilen der datei aus
@@ -268,3 +273,4 @@ function load_configuration(filename :: String)
     # return configuration
     return conf
 end
+export load_configuration

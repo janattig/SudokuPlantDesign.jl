@@ -21,6 +21,12 @@ mutable struct UpdateNewCheckLabel <: AbstractUpdate
     end
 
 end
+export UpdateNewCheckLabel
+
+
+
+
+
 
 function apply_update!(conf :: C, updt :: UpdateNewCheckLabel) where {C <: CheckConfiguration}
     # set the previous thing in the configuration

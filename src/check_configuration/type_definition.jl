@@ -59,7 +59,7 @@ mutable struct CheckConfiguration{B <: BlockArray}
     neighbor_pairs :: Matrix{Vector{Int64}}
 
 end
-
+export CheckConfiguration
 
 
 
@@ -135,8 +135,8 @@ function get_configuration(blocksizes_x::Vector{<:Int64}, blocksizes_y::Vector{<
     end
     # anzahl an plots im column (non-empty felder)
     num_plots_col = copy(length_col)
-    
-    
+
+
     # NEIGHBORS
     nb = Matrix{Vector{Int64}}(undef, N,N)
     for i in 1:N
@@ -144,7 +144,7 @@ function get_configuration(blocksizes_x::Vector{<:Int64}, blocksizes_y::Vector{<
             nb[i,j] = zeros(Int64, dmax)
         end
     end
-    
+
 
     # build object
     C = CheckConfiguration(
@@ -172,3 +172,4 @@ function get_configuration(blocksizes_x::Vector{<:Int64}, blocksizes_y::Vector{<
     # return object
     return C
 end
+export get_configuration

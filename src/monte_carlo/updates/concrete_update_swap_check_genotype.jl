@@ -23,6 +23,12 @@ mutable struct UpdateSwapCheckGenotype <: AbstractUpdate
     end
 
 end
+export UpdateSwapCheckGenotype
+
+
+
+
+
 
 function apply_update!(conf :: C, updt :: UpdateSwapCheckGenotype) where {C <: CheckConfiguration}
     # setze check auf ig,jg und genotype auf ic,jc
