@@ -67,9 +67,11 @@ end
 function sizex(conf :: C) where {C <: CheckConfiguration}
     return size(conf.configuration)[1]
 end
+export sizex
 function sizey(conf :: C) where {C <: CheckConfiguration}
     return size(conf.configuration)[2]
 end
+export sizey
 
 
 
@@ -566,3 +568,11 @@ function set_check!(conf :: C, bi::Int64, bj::Int64, x::Int64, y::Int64, c::Int6
     # set in the configuration
     getblock(conf.configuration,bi,bj)[x,y] = c
 end
+
+
+
+
+# expor the different interface functions
+export is_check, is_empty, is_genotype
+export get_check
+export set_check, set_empty, set_genotype
