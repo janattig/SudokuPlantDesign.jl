@@ -20,5 +20,6 @@ module SudokuPlantDesign
     include("monte_carlo/updates/concrete_update_new_check_label.jl")
     include("monte_carlo/updates/concrete_update_swap_check_check.jl")
     include("monte_carlo/updates/concrete_update_swap_check_genotype.jl")
+    include("monte_carlo/cost_functions.jl")
 
 end
