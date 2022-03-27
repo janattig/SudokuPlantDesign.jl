@@ -11,7 +11,7 @@ function mc_update!(C, T, updates, K)
         # accept, do nothing
     else
         # refuse, revert the update
-        reverse_update!(C, move)
+        reverse_update!(C, updt)
     end
     return nothing
 end
