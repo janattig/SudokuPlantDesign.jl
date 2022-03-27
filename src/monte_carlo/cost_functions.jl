@@ -15,6 +15,7 @@
 function K_num_checks_total(conf :: C, num_checks :: Integer) :: Float64 where {C <: CheckConfiguration}
     return (conf.num_checks_total - num_checks)^2
 end
+export K_num_checks_total
 function K_num_checks_per_type(conf :: C, num_checks :: Integer) :: Float64 where {C <: CheckConfiguration}
     kosten = 0
     for n in 1:conf.N
@@ -22,6 +23,7 @@ function K_num_checks_per_type(conf :: C, num_checks :: Integer) :: Float64 wher
     end
     return kosten/conf.N
 end
+export K_num_checks_per_type
 function K_num_checks_per_type(conf :: C, num_checks :: Vector{<:Integer}) :: Float64 where {C <: CheckConfiguration}
     kosten = 0
     for n in 1:conf.N
@@ -30,15 +32,18 @@ function K_num_checks_per_type(conf :: C, num_checks :: Vector{<:Integer}) :: Fl
     end
     return kosten/conf.N
 end
+export K_num_checks_per_type
 function K_num_checks_equal_per_type(conf :: C) :: Float64 where {C <: CheckConfiguration}
     return var(conf.num_checks)
 end
+export K_num_checks_equal_per_type
 
 
 # Total number of genotypes
 function K_num_genotypes_total(conf :: C, num_genotypes :: Integer) :: Float64 where {C <: CheckConfiguration}
     return ((conf.num_plots_total-conf.num_checks_total) - num_genotypes)^2
 end
+export K_num_genotypes_total
 
 
 
@@ -60,6 +65,7 @@ function K_min_checks_per_type_per_block(conf :: C, num_checks :: Integer) :: Fl
     end
     return kosten / (blocksx(conf)*blocksy(conf)*conf.N)
 end
+export K_min_checks_per_type_per_block
 
 # maximal number of checks per block
 function K_max_checks_per_type_per_block(conf :: C, num_checks :: Integer) :: Float64 where {C <: CheckConfiguration}
@@ -73,6 +79,7 @@ function K_max_checks_per_type_per_block(conf :: C, num_checks :: Integer) :: Fl
     end
     return kosten / (blocksx(conf)*blocksy(conf)*conf.N)
 end
+export K_max_checks_per_type_per_block
 
 # exact number of checks per block
 function K_checks_per_type_per_block(conf :: C, num_checks :: Integer) :: Float64 where {C <: CheckConfiguration}
@@ -86,6 +93,7 @@ function K_checks_per_type_per_block(conf :: C, num_checks :: Integer) :: Float6
     end
     return kosten / (blocksx(conf)*blocksy(conf)*conf.N)
 end
+export K_checks_per_type_per_block
 
 
 
@@ -104,6 +112,7 @@ function K_min_checks_per_type_per_row(conf :: C, num_checks :: Integer) :: Floa
     end
     return kosten / (sizey(conf)*conf.N)
 end
+export K_min_checks_per_type_per_row
 
 # maximal number of checks per row
 function K_max_checks_per_type_per_row(conf :: C, num_checks :: Integer) :: Float64 where {C <: CheckConfiguration}
@@ -115,6 +124,7 @@ function K_max_checks_per_type_per_row(conf :: C, num_checks :: Integer) :: Floa
     end
     return kosten / (sizey(conf)*conf.N)
 end
+export K_max_checks_per_type_per_row
 
 # exact number of checks per row
 function K_checks_per_type_per_row(conf :: C, num_checks :: Integer) :: Float64 where {C <: CheckConfiguration}
@@ -126,6 +136,7 @@ function K_checks_per_type_per_row(conf :: C, num_checks :: Integer) :: Float64 
     end
     return kosten / (sizey(conf)*conf.N)
 end
+export K_checks_per_type_per_row
 
 
 
@@ -146,6 +157,7 @@ function K_min_checks_per_type_per_column(conf :: C, num_checks :: Integer) :: F
     end
     return kosten / (sizex(conf)*conf.N)
 end
+export K_min_checks_per_type_per_column
 
 # maximal number of checks per column
 function K_max_checks_per_type_per_column(conf :: C, num_checks :: Integer) :: Float64 where {C <: CheckConfiguration}
@@ -157,6 +169,7 @@ function K_max_checks_per_type_per_column(conf :: C, num_checks :: Integer) :: F
     end
     return kosten / (sizex(conf)*conf.N)
 end
+export K_max_checks_per_type_per_column
 
 # exact number of checks per column
 function K_checks_per_type_per_column(conf :: C, num_checks :: Integer) :: Float64 where {C <: CheckConfiguration}
@@ -168,6 +181,7 @@ function K_checks_per_type_per_column(conf :: C, num_checks :: Integer) :: Float
     end
     return kosten / (sizex(conf)*conf.N)
 end
+export K_checks_per_type_per_column
 
 
 
@@ -183,6 +197,7 @@ function K_neighbors_same_check_const(conf :: C, cost :: Float64) :: Float64 whe
     end
     return kosten*cost
 end
+export K_neighbors_same_check_const
 function K_neighbors_same_check_dmax_const(conf :: C, dmax::Int64, cost :: Float64) :: Float64 where {C <: CheckConfiguration}
     kosten = 0
     for i in 1:conf.N
@@ -190,6 +205,7 @@ function K_neighbors_same_check_dmax_const(conf :: C, dmax::Int64, cost :: Float
     end
     return kosten*cost
 end
+export K_neighbors_same_check_dmax_const
 function K_neighbors_same_check_functional(conf :: C, f :: Function) :: Float64 where {C <: CheckConfiguration}
     kosten = 0
     for i in 1:conf.N
@@ -199,6 +215,7 @@ function K_neighbors_same_check_functional(conf :: C, f :: Function) :: Float64 
     end
     return kosten
 end
+export K_neighbors_same_check_functional
 
 function K_neighbors_different_check_const(conf :: C, cost :: Float64) :: Float64 where {C <: CheckConfiguration}
     kosten = 0
@@ -209,6 +226,7 @@ function K_neighbors_different_check_const(conf :: C, cost :: Float64) :: Float6
     end
     return kosten*cost
 end
+export K_neighbors_different_check_const
 function K_neighbors_different_check_dmax_const(conf :: C, dmax::Int64, cost :: Float64) :: Float64 where {C <: CheckConfiguration}
     kosten = 0
     for i in 1:conf.N
@@ -218,6 +236,7 @@ function K_neighbors_different_check_dmax_const(conf :: C, dmax::Int64, cost :: 
     end
     return kosten*cost
 end
+export K_neighbors_different_check_dmax_const
 function K_neighbors_different_check_functional(conf :: C, f :: Function) :: Float64 where {C <: CheckConfiguration}
     kosten = 0
     for i in 1:conf.N
@@ -229,3 +248,4 @@ function K_neighbors_different_check_functional(conf :: C, f :: Function) :: Flo
     end
     return kosten
 end
+export K_neighbors_different_check_functional

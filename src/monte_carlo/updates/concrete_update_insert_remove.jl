@@ -18,6 +18,10 @@ mutable struct UpdateInsertCheck <: AbstractUpdate
     end
 
 end
+export UpdateInsertCheck
+
+
+
 
 function apply_update!(conf :: C, updt :: UpdateInsertCheck) where {C <: CheckConfiguration}
     # set the check in the configuration
@@ -65,6 +69,12 @@ mutable struct UpdateRemoveCheck <: AbstractUpdate
     end
 
 end
+export UpdateRemoveCheck
+
+
+
+
+
 
 function apply_update!(conf :: C, updt :: UpdateRemoveCheck) where {C <: CheckConfiguration}
     # set the previous thing in the configuration

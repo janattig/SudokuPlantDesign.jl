@@ -25,6 +25,12 @@ mutable struct UpdateSwapCheckCheck <: AbstractUpdate
     end
 
 end
+export UpdateSwapCheckCheck
+
+
+
+
+
 
 function apply_update!(conf :: C, updt :: UpdateSwapCheckCheck) where {C <: CheckConfiguration}
     # setze check_1 auf i2,j2 und check_2 auf i1,j1
