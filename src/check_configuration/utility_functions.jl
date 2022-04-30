@@ -148,11 +148,12 @@ function show_configuration(
         ;
         zoom = 0.2,
         cmap="gist_rainbow",
-		check_labels=true
+		check_labels=true,
+        dpi = 300
     ) where {C <: CheckConfiguration}
 
     # new figure
-    figure(figsize=size(conf.configuration) .* zoom)
+    figure(figsize=size(conf.configuration) .* zoom, dpi=dpi)
 
     # show the configuration
     imshow(
