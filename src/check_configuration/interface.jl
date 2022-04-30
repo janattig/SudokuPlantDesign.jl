@@ -112,7 +112,11 @@ end
 # SETTER
 ############
 
-function set_empty!(conf :: C, i::Int64, j::Int64) where {C <: CheckConfiguration}
+function set_empty!(conf :: C, i::Int64, j::Int64) where {BC, BA<:BlockArray, C <: CheckConfiguration{BC,BA}}
+    @error "not implemented interface function \"set_empty!(C,i,j)\" for boundary conditions "*string(BC)*" yet"
+end
+
+function set_empty!(conf :: C, i::Int64, j::Int64) where {BA<:BlockArray, C <: CheckConfiguration{OBC,BA}}
     # check which type of field was there before
     if is_empty(conf, i,j)
         # do nothing
@@ -162,7 +166,12 @@ function set_empty!(conf :: C, i::Int64, j::Int64) where {C <: CheckConfiguratio
     conf.configuration[i,j] = -1
 end
 
-function set_genotype!(conf :: C, i::Int64, j::Int64) where {C <: CheckConfiguration}
+
+function set_genotype!(conf :: C, i::Int64, j::Int64) where {BC, BA<:BlockArray, C <: CheckConfiguration{BC,BA}}
+    @error "not implemented interface function \"set_genotype!(C,i,j)\" for boundary conditions "*string(BC)*" yet"
+end
+
+function set_genotype!(conf :: C, i::Int64, j::Int64) where {BA<:BlockArray, C <: CheckConfiguration{OBC,BA}}
     # check which type of field was there before
     if is_empty(conf, i,j)
         # find out block indizes
@@ -207,7 +216,12 @@ function set_genotype!(conf :: C, i::Int64, j::Int64) where {C <: CheckConfigura
     conf.configuration[i,j] = 0
 end
 
-function set_check!(conf :: C, i::Int64, j::Int64, c::Int64) where {C <: CheckConfiguration}
+
+function set_check!(conf :: C, i::Int64, j::Int64, c::Int64) where {BC, BA<:BlockArray, C <: CheckConfiguration{BC,BA}}
+    @error "not implemented interface function \"set_check!(C,i,j,c)\" for boundary conditions "*string(BC)*" yet"
+end
+
+function set_check!(conf :: C, i::Int64, j::Int64, c::Int64) where {BA<:BlockArray, C <: CheckConfiguration{OBC,BA}}
     # check which type of field was there before
     if is_empty(conf, i,j)
         # find out block indizes
@@ -370,203 +384,32 @@ end
 
 
 
-
-
-
-
-
-
-
-
 ############
 # SETTER
 ############
 
 function set_empty!(conf :: C, bi::Int64, bj::Int64, x::Int64, y::Int64) where {C <: CheckConfiguration}
-    # check which type of field was there before
-    if is_empty(conf, bi,bj, x,y)
-        # do nothing
-    elseif is_genotype(conf, bi,bj, x,y)
-        # find out global indizes
-        i = get_index_x(conf, bi,x)
-        j = get_index_y(conf, bj,y)
-        # remove one plot from statistics
-        conf.num_plots_block[bi,bj] -= 1
-        conf.num_plots_row[j] -= 1
-        conf.num_plots_col[i] -= 1
-        conf.num_plots_total -= 1
-    else
-        # block is check
-        # find out global indizes
-        i = get_index_x(conf, bi,x)
-        j = get_index_y(conf, bj,y)
-        # remove one plot from statistics
-        conf.num_plots_block[bi,bj] -= 1
-        conf.num_plots_row[j] -= 1
-        conf.num_plots_col[i] -= 1
-        conf.num_plots_total -= 1
-        # remove one check from statistics
-        conf.num_checks_block_total[bi,bj] -= 1
-        conf.num_checks_block[bi,bj][get_check(conf, i,j)] -= 1
-        conf.num_checks_row_total[j] -= 1
-        conf.num_checks_row[j][get_check(conf, i,j)] -= 1
-        conf.num_checks_col_total[i] -= 1
-        conf.num_checks_col[i][get_check(conf, i,j)] -= 1
-        conf.num_checks_total -= 1
-        conf.num_checks[get_check(conf, i,j)] -= 1
-        # check neighbors
-        c1 = get_check(conf, i,j)
-        for x in max(i-conf.dmax,1):min(i+conf.dmax,sizex(conf))
-        for y in max((j-conf.dmax)+(abs(i-x)),1):min((j+conf.dmax)-(abs(i-x)),sizey(conf))
-            if is_check(conf, x,y)
-                d = abs(x-i)+abs(y-j)
-                if d!=0
-                    c2 = get_check(conf,x,y)
-                    conf.neighbor_pairs[min(c1,c2),max(c1,c2)][d] -= 1
-                end
-            end
-        end
-        end
-    end
-    # set in the configuration
-    getblock(conf.configuration,bi,bj)[x,y] = -1
+    # find out indices i and j
+    i = get_index_x(conf, bi,x)
+    j = get_index_y(conf, bj,y)
+    # pass to already implemented function
+    set_empty!(conf, i,j)
 end
 
 function set_genotype!(conf :: C, bi::Int64, bj::Int64, x::Int64, y::Int64) where {C <: CheckConfiguration}
-    # check which type of field was there before
-    if is_empty(conf, bi,bj, x,y)
-        # find out global indizes
-        i = get_index_x(conf, bi,x)
-        j = get_index_y(conf, bj,y)
-        # add one plot to statistics
-        conf.num_plots_block[bi,bj] += 1
-        conf.num_plots_row[j] += 1
-        conf.num_plots_col[i] += 1
-        conf.num_plots_total += 1
-    elseif is_genotype(conf, bi,bj, x,y)
-        # do nothing
-    else
-        # block is check
-        # find out global indizes
-        i = get_index_x(conf, bi,x)
-        j = get_index_y(conf, bj,y)
-        # remove one check from statistics
-        conf.num_checks_block_total[bi,bj] -= 1
-        conf.num_checks_block[bi,bj][get_check(conf, i,j)] -= 1
-        conf.num_checks_row_total[j] -= 1
-        conf.num_checks_row[j][get_check(conf, i,j)] -= 1
-        conf.num_checks_col_total[i] -= 1
-        conf.num_checks_col[i][get_check(conf, i,j)] -= 1
-        conf.num_checks_total -= 1
-        conf.num_checks[get_check(conf, i,j)] -= 1
-        # check neighbors
-        c1 = get_check(conf, i,j)
-        for x in max(i-conf.dmax,1):min(i+conf.dmax,sizex(conf))
-        for y in max((j-conf.dmax)+(abs(i-x)),1):min((j+conf.dmax)-(abs(i-x)),sizey(conf))
-            if is_check(conf, x,y)
-                d = abs(x-i)+abs(y-j)
-                if d!=0
-                    c2 = get_check(conf,x,y)
-                    conf.neighbor_pairs[min(c1,c2),max(c1,c2)][d] -= 1
-                end
-            end
-        end
-        end
-    end
-    # set in the configuration
-    getblock(conf.configuration,bi,bj)[x,y] = 0
+    # find out indices i and j
+    i = get_index_x(conf, bi,x)
+    j = get_index_y(conf, bj,y)
+    # pass to already implemented function
+    set_genotype!(conf, i,j)
 end
 
 function set_check!(conf :: C, bi::Int64, bj::Int64, x::Int64, y::Int64, c::Int64) where {C <: CheckConfiguration}
-    # check which type of field was there before
-    if is_empty(conf, bi,bj, x,y)
-        # find out global indizes
-        i = get_index_x(conf, bi,x)
-        j = get_index_y(conf, bj,y)
-        # add one plot to statistics
-        conf.num_plots_block[bi,bj] += 1
-        conf.num_plots_row[i] += 1
-        conf.num_plots_col[j] += 1
-        conf.num_plots_total += 1
-        # add one check to statistics
-        conf.num_checks_block_total[bi,bj] += 1
-        conf.num_checks_block[bi,bj][c] += 1
-        conf.num_checks_row_total[j] += 1
-        conf.num_checks_row[j][c] += 1
-        conf.num_checks_col_total[i] += 1
-        conf.num_checks_col[i][c] += 1
-        conf.num_checks_total += 1
-        conf.num_checks[c] += 1
-        # check neighbors
-        for x in max(i-conf.dmax,1):min(i+conf.dmax,sizex(conf))
-        for y in max((j-conf.dmax)+(abs(i-x)),1):min((j+conf.dmax)-(abs(i-x)),sizey(conf))
-            if is_check(conf, x,y)
-                d = abs(x-i)+abs(y-j)
-                if d!=0
-                    c2 = get_check(conf,x,y)
-                    conf.neighbor_pairs[min(c,c2),max(c,c2)][d] += 1
-                end
-            end
-        end
-        end
-    elseif is_genotype(conf, bi,bj, x,y)
-        # find out global indizes
-        i = get_index_x(conf, bi,x)
-        j = get_index_y(conf, bj,y)
-        # add one check to statistics
-        conf.num_checks_block_total[bi,bj] += 1
-        conf.num_checks_block[bi,bj][c] += 1
-        conf.num_checks_row_total[j] += 1
-        conf.num_checks_row[j][c] += 1
-        conf.num_checks_col_total[i] += 1
-        conf.num_checks_col[i][c] += 1
-        conf.num_checks_total += 1
-        conf.num_checks[c] += 1
-        # check neighbors
-        for x in max(i-conf.dmax,1):min(i+conf.dmax,sizex(conf))
-        for y in max((j-conf.dmax)+(abs(i-x)),1):min((j+conf.dmax)-(abs(i-x)),sizey(conf))
-            if is_check(conf, x,y)
-                d = abs(x-i)+abs(y-j)
-                if d!=0
-                    c2 = get_check(conf,x,y)
-                    conf.neighbor_pairs[min(c,c2),max(c,c2)][d] += 1
-                end
-            end
-        end
-        end
-    else
-        # block is check
-        # find out global indizes
-        i = get_index_x(conf, bi,x)
-        j = get_index_y(conf, bj,y)
-        # remove one check from statistics and add new one
-        conf.num_checks_block[bi,bj][c] += 1
-        conf.num_checks_block[bi,bj][get_check(conf, i,j)] -= 1
-        conf.num_checks_row[j][c] += 1
-        conf.num_checks_row[j][get_check(conf, i,j)] -= 1
-        conf.num_checks_col[i][c] += 1
-        conf.num_checks_col[i][get_check(conf, i,j)] -= 1
-        conf.num_checks[c] += 1
-        conf.num_checks[get_check(conf, i,j)] -= 1
-        # neighbors
-        if c != get_check(conf, i,j)
-            c1 = get_check(conf, i,j)
-            for x in max(i-conf.dmax,1):min(i+conf.dmax,sizex(conf))
-            for y in max((j-conf.dmax)+(abs(i-x)),1):min((j+conf.dmax)-(abs(i-x)),sizey(conf))
-                if is_check(conf, x,y)
-                    d = abs(x-i)+abs(y-j)
-                    if d!=0
-                        c2 = get_check(conf,x,y)
-                        conf.neighbor_pairs[min(c,c2),max(c,c2)][d]   += 1
-                        conf.neighbor_pairs[min(c1,c2),max(c1,c2)][d] -= 1
-                    end
-                end
-            end
-            end
-        end
-    end
-    # set in the configuration
-    getblock(conf.configuration,bi,bj)[x,y] = c
+    # find out indices i and j
+    i = get_index_x(conf, bi,x)
+    j = get_index_y(conf, bj,y)
+    # pass to already implemented function
+    set_check!(conf, i,j, c)
 end
 
 
