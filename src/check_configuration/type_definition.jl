@@ -1,6 +1,13 @@
+abstract type BoundaryCondition end
+export BoundaryCondition
+
+struct PBC <: BoundaryCondition end
+struct OBC <: BoundaryCondition end
+export PBC, OBC
+
 # Type Definition
 # Check Configuration -- how checks are distributed on the available space
-mutable struct CheckConfiguration{B <: BlockArray}
+mutable struct CheckConfiguration{BC <: BoundaryCondition, B <: BlockArray}
 
     # configuration itself
     configuration :: B
@@ -68,10 +75,20 @@ export CheckConfiguration
 
 
 # generate configuration
-function get_configuration(blocksizes_x::Vector{<:Int64}, blocksizes_y::Vector{<:Int64}, N::Int64, dmax::Int64=5)
+function get_configuration(blocksizes_x::Vector{<:Int64}, blocksizes_y::Vector{<:Int64}, N::Int64; dmax::Int64=5, bc::Symbol=:periodic)
 
     # build new check configuration
+    if bc == :periodic
+        BC = PBC
+    elseif bc == :open
+        BC = OBC
+    else
+        @error "Did not specify correct boundary condition: "*string(bc)
+        return
+    end
+
     conf = BlockArray{Int64}(undef, blocksizes_x, blocksizes_y)
+    ToBA = typeof(conf)
     # set all elements to 0 (= plant is there)
     conf .= 0
 
@@ -147,7 +164,7 @@ function get_configuration(blocksizes_x::Vector{<:Int64}, blocksizes_y::Vector{<
 
 
     # build object
-    C = CheckConfiguration(
+    C = CheckConfiguration{BC,ToBA}(
         conf, N,
         num_checks,
         num_checks_total,
