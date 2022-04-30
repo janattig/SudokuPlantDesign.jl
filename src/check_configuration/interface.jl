@@ -47,6 +47,16 @@ function get_index_y(conf :: C, bj::Int64,j::Int64) :: Int64 where {C <: CheckCo
 end
 
 
+function bring_to_range_one_to_a(x, a)
+    y = x
+    while y > a
+        y -= a
+    end
+    while y < 1
+        y += a
+    end
+    return y
+end
 
 
 
