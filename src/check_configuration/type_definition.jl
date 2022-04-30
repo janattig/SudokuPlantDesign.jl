@@ -1,7 +1,9 @@
 abstract type BoundaryCondition end
+export BoundaryCondition
 
 struct PBC <: BoundaryCondition end
 struct OBC <: BoundaryCondition end
+export PBC, OBC
 
 # Type Definition
 # Check Configuration -- how checks are distributed on the available space
