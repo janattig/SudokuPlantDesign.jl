@@ -19,6 +19,7 @@ You can use the code after having it installed by importing the module as
 using SudokuPlantDesign
 ```
 
+![Check Distribution](https://github.com/janattig/SudokuPlantDesign.jl/blob/main/figures/initial_random_check_distribution.png)
 
 
 ## Background
