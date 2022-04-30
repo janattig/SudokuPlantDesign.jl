@@ -418,4 +418,4 @@ end
 # expor the different interface functions
 export is_check, is_empty, is_genotype
 export get_check
-export set_check, set_empty, set_genotype
+export set_check!, set_empty!, set_genotype!
