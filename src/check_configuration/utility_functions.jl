@@ -161,7 +161,9 @@ function show_configuration(
         interpolation="None",
         alpha=1,
         extent = (0,sizex(conf),0,sizey(conf)),
-        cmap = cmap
+        cmap = cmap,
+        vmin = -1,
+        vmax = conf.N
     )
 
     # make lines surrounding the blocks
