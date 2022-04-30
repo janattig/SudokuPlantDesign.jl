@@ -18,9 +18,12 @@ You can use the code after having it installed by importing the module as
 ```julia
 using SudokuPlantDesign
 ```
-
+Initial augmented design - random distribution of checks per block
 ![Check Distribution](https://github.com/janattig/SudokuPlantDesign.jl/blob/main/figures/initial_random_check_distribution.png)
 
+Sudoku-augmented design - optimized checks distribution
+
+Sudoku-RCBD design - optimized checks distribution
 
 ## Background
 
