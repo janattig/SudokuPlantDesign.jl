@@ -19,6 +19,8 @@ You can use the code after having it installed by importing the module as
 using SudokuPlantDesign
 ```
 ### Initial augmented design - random distribution of checks per block
+In a typical augmented design, checks are randomly distributed within blocks. As can be seen in the figure below, this often leads to clusters of checks, whereas in other parts of the trials big empty gaps without checks occur. This inhomogeneous distribution of checks reduces the ability of the design to adjust for environmental variation with the replicated checks. 
+
 ![Check Distribution](https://github.com/janattig/SudokuPlantDesign.jl/blob/main/figures/initial_random_check_distribution.png)
 
 ### Sudoku-augmented design - optimized checks distribution
