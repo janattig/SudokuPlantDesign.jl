@@ -95,7 +95,7 @@ function is_empty(conf :: C, i::Int64, j::Int64) :: Bool where {C <: CheckConfig
     return conf.configuration[i,j] == -1
 end
 
-function is_genotype(conf :: C, i::Int64, j::Int64) :: Bool where {C <: CheckConfiguration}
+function is_entry(conf :: C, i::Int64, j::Int64) :: Bool where {C <: CheckConfiguration}
     # ask in the configuration
     return conf.configuration[i,j] == 0
 end
@@ -130,7 +130,7 @@ function set_empty!(conf :: C, i::Int64, j::Int64) where {BA<:BlockArray, C <: C
     # check which type of field was there before
     if is_empty(conf, i,j)
         # do nothing
-    elseif is_genotype(conf, i,j)
+    elseif is_entry(conf, i,j)
         # find out block indizes
         bi = get_block_index_x(conf, i)
         bj = get_block_index_y(conf, j)
@@ -179,7 +179,7 @@ function set_empty!(conf :: C, i::Int64, j::Int64) where {BA<:BlockArray, C <: C
     # check which type of field was there before
     if is_empty(conf, i,j)
         # do nothing
-    elseif is_genotype(conf, i,j)
+    elseif is_entry(conf, i,j)
         # find out block indizes
         bi = get_block_index_x(conf, i)
         bj = get_block_index_y(conf, j)
@@ -232,11 +232,11 @@ function set_empty!(conf :: C, i::Int64, j::Int64) where {BA<:BlockArray, C <: C
 end
 
 
-function set_genotype!(conf :: C, i::Int64, j::Int64) where {BC, BA<:BlockArray, C <: CheckConfiguration{BC,BA}}
-    @error "not implemented interface function \"set_genotype!(C,i,j)\" for boundary conditions "*string(BC)*" yet"
+function set_entry!(conf :: C, i::Int64, j::Int64) where {BC, BA<:BlockArray, C <: CheckConfiguration{BC,BA}}
+    @error "not implemented interface function \"set_entry!(C,i,j)\" for boundary conditions "*string(BC)*" yet"
 end
 
-function set_genotype!(conf :: C, i::Int64, j::Int64) where {BA<:BlockArray, C <: CheckConfiguration{OBC,BA}}
+function set_entry!(conf :: C, i::Int64, j::Int64) where {BA<:BlockArray, C <: CheckConfiguration{OBC,BA}}
     # check which type of field was there before
     if is_empty(conf, i,j)
         # find out block indizes
@@ -247,7 +247,7 @@ function set_genotype!(conf :: C, i::Int64, j::Int64) where {BA<:BlockArray, C <
         conf.num_plots_row[j] += 1
         conf.num_plots_col[i] += 1
         conf.num_plots_total += 1
-    elseif is_genotype(conf, i,j)
+    elseif is_entry(conf, i,j)
         # do nothing
     else
         # block is check
@@ -280,7 +280,7 @@ function set_genotype!(conf :: C, i::Int64, j::Int64) where {BA<:BlockArray, C <
     # set in the configuration
     conf.configuration[i,j] = 0
 end
-function set_genotype!(conf :: C, i::Int64, j::Int64) where {BA<:BlockArray, C <: CheckConfiguration{PBC,BA}}
+function set_entry!(conf :: C, i::Int64, j::Int64) where {BA<:BlockArray, C <: CheckConfiguration{PBC,BA}}
     # check which type of field was there before
     if is_empty(conf, i,j)
         # find out block indizes
@@ -291,7 +291,7 @@ function set_genotype!(conf :: C, i::Int64, j::Int64) where {BA<:BlockArray, C <
         conf.num_plots_row[j] += 1
         conf.num_plots_col[i] += 1
         conf.num_plots_total += 1
-    elseif is_genotype(conf, i,j)
+    elseif is_entry(conf, i,j)
         # do nothing
     else
         # block is check
@@ -368,7 +368,7 @@ function set_check!(conf :: C, i::Int64, j::Int64, c::Int64) where {BA<:BlockArr
             end
         end
         end
-    elseif is_genotype(conf, i,j)
+    elseif is_entry(conf, i,j)
         # find out block indizes
         bi = get_block_index_x(conf, i)
         bj = get_block_index_y(conf, j)
@@ -465,7 +465,7 @@ function set_check!(conf :: C, i::Int64, j::Int64, c::Int64) where {BA<:BlockArr
             end
         end
         end
-    elseif is_genotype(conf, i,j)
+    elseif is_entry(conf, i,j)
         # find out block indizes
         bi = get_block_index_x(conf, i)
         bj = get_block_index_y(conf, j)
@@ -594,7 +594,7 @@ function is_empty(conf :: C, bi::Int64, bj::Int64, i::Int64, j::Int64) :: Bool w
     return getblock(conf.configuration, bi,bj)[i,j] == -1
 end
 
-function is_genotype(conf :: C, bi::Int64, bj::Int64, i::Int64, j::Int64) :: Bool where {C <: CheckConfiguration}
+function is_entry(conf :: C, bi::Int64, bj::Int64, i::Int64, j::Int64) :: Bool where {C <: CheckConfiguration}
     # ask in the configuration
     return getblock(conf.configuration, bi,bj)[i,j] == 0
 end
@@ -626,12 +626,12 @@ function set_empty!(conf :: C, bi::Int64, bj::Int64, x::Int64, y::Int64) where {
     set_empty!(conf, i,j)
 end
 
-function set_genotype!(conf :: C, bi::Int64, bj::Int64, x::Int64, y::Int64) where {C <: CheckConfiguration}
+function set_entry!(conf :: C, bi::Int64, bj::Int64, x::Int64, y::Int64) where {C <: CheckConfiguration}
     # find out indices i and j
     i = get_index_x(conf, bi,x)
     j = get_index_y(conf, bj,y)
     # pass to already implemented function
-    set_genotype!(conf, i,j)
+    set_entry!(conf, i,j)
 end
 
 function set_check!(conf :: C, bi::Int64, bj::Int64, x::Int64, y::Int64, c::Int64) where {C <: CheckConfiguration}
@@ -646,6 +646,6 @@ end
 
 
 # expor the different interface functions
-export is_check, is_empty, is_genotype
+export is_check, is_empty, is_entry
 export get_check
-export set_check!, set_empty!, set_genotype!
+export set_check!, set_empty!, set_entry!

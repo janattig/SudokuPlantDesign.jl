@@ -39,11 +39,11 @@ end
 export K_num_checks_equal_per_type
 
 
-# Total number of genotypes
-function K_num_genotypes_total(conf :: C, num_genotypes :: Integer) :: Float64 where {C <: CheckConfiguration}
-    return ((conf.num_plots_total-conf.num_checks_total) - num_genotypes)^2
+# Total number of entries
+function K_num_entries_total(conf :: C, num_entries :: Integer) :: Float64 where {C <: CheckConfiguration}
+    return ((conf.num_plots_total-conf.num_checks_total) - num_entries)^2
 end
-export K_num_genotypes_total
+export K_num_entries_total
 
 
 

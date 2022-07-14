@@ -1,8 +1,8 @@
 ###################
-# SWAP A CHECK WITH A GENOTYPE
+# SWAP A CHECK WITH A ENTRY
 ###################
 
-mutable struct UpdateSwapCheckGenotype <: AbstractUpdate
+mutable struct UpdateSwapCheckEntry <: AbstractUpdate
 
     # position
     ic :: Int64
@@ -18,30 +18,30 @@ mutable struct UpdateSwapCheckGenotype <: AbstractUpdate
 
 
     # constructor
-    function UpdateSwapCheckGenotype()
+    function UpdateSwapCheckEntry()
         return new(-1,-1,-1,-1,-1)
     end
 
 end
-export UpdateSwapCheckGenotype
+export UpdateSwapCheckEntry
 
 
 
 
 
 
-function apply_update!(conf :: C, updt :: UpdateSwapCheckGenotype) where {C <: CheckConfiguration}
-    # setze check auf ig,jg und genotype auf ic,jc
+function apply_update!(conf :: C, updt :: UpdateSwapCheckEntry) where {C <: CheckConfiguration}
+    # setze check auf ig,jg und entry auf ic,jc
     set_check!(conf,updt.ig,updt.jg,updt.check)
-    set_genotype!(conf,updt.ic,updt.jc)
+    set_entry!(conf,updt.ic,updt.jc)
 end
-function reverse_update!(conf :: C, updt :: UpdateSwapCheckGenotype) where {C <: CheckConfiguration}
-    # setze check auf ic,jc und genotype auf ig,jg
+function reverse_update!(conf :: C, updt :: UpdateSwapCheckEntry) where {C <: CheckConfiguration}
+    # setze check auf ic,jc und entry auf ig,jg
     set_check!(conf,updt.ic,updt.jc,updt.check)
-    set_genotype!(conf,updt.ig,updt.jg)
+    set_entry!(conf,updt.ig,updt.jg)
 end
 
-function generate!(updt :: UpdateSwapCheckGenotype, conf :: C) where {C <: CheckConfiguration}
+function generate!(updt :: UpdateSwapCheckEntry, conf :: C) where {C <: CheckConfiguration}
     # suche random coordinates und behalte wenn check ist
     updt.ic=rand(1:sizex(conf))
     updt.jc=rand(1:sizey(conf))
@@ -54,7 +54,7 @@ function generate!(updt :: UpdateSwapCheckGenotype, conf :: C) where {C <: Check
     # suche random coordinates und behalte wenn ein genotyp ist
     updt.ig=rand(1:sizex(conf))
     updt.jg=rand(1:sizey(conf))
-    while !is_genotype(conf,updt.ig,updt.jg)
+    while !is_entry(conf,updt.ig,updt.jg)
         updt.ig=rand(1:sizex(conf))
         updt.jg=rand(1:sizey(conf))
     end

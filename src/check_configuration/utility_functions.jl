@@ -55,7 +55,7 @@ function initialize_checks!(conf :: C, num_checks :: Int64) where {C <: CheckCon
     for i in 1:sizex(conf)
         for j in 1:sizey(conf)
             if !is_empty(conf, i,j)
-                set_genotype!(conf, i,j)
+                set_entry!(conf, i,j)
             end
         end
     end
@@ -66,7 +66,7 @@ function initialize_checks!(conf :: C, num_checks :: Int64) where {C <: CheckCon
         # find random check label
         c = rand(1:conf.N)
         # find random positions
-        while !is_genotype(conf, i,j)
+        while !is_entry(conf, i,j)
             i = rand(1:sizex(conf))
             j = rand(1:sizey(conf))
         end
@@ -81,25 +81,25 @@ function initialize_checks_per_block!(conf :: C) where {C <: CheckConfiguration}
     for bi in 1:blocksx(conf)
     for bj in 1:blocksy(conf)
         # set every non-(-1) element to 0 and count these elements
-        num_genotypes_in_block = 0
+        num_entries_in_block = 0
         for i in 1:blocksizex(conf, bi,bj)
         for j in 1:blocksizey(conf, bi,bj)
             if !is_empty(conf, bi,bj, i,j)
-                set_genotype!(conf, bi,bj, i,j)
-                num_genotypes_in_block += 1
+                set_entry!(conf, bi,bj, i,j)
+                num_entries_in_block += 1
             end
         end
         end
         # maybe warn if not possible to distribute the number of checks
-        if 0 < num_genotypes_in_block < conf.N
-            @warn "Block ($(bi),$(bj)) has only $(num_genotypes_in_block) available fields, cannot distribute $(conf.N) checks!"
+        if 0 < num_entries_in_block < conf.N
+            @warn "Block ($(bi),$(bj)) has only $(num_entries_in_block) available fields, cannot distribute $(conf.N) checks!"
         end
         # find position for every check
         i = rand(1:blocksizex(conf, bi,bj))
         j = rand(1:blocksizey(conf, bi,bj))
-        for c in 1:min(conf.N,num_genotypes_in_block)
+        for c in 1:min(conf.N,num_entries_in_block)
             # find random positions
-            while !is_genotype(conf, bi,bj, i,j)
+            while !is_entry(conf, bi,bj, i,j)
                 i = rand(1:blocksizex(conf, bi,bj))
                 j = rand(1:blocksizey(conf, bi,bj))
             end
@@ -111,7 +111,7 @@ function initialize_checks_per_block!(conf :: C) where {C <: CheckConfiguration}
 end
 export initialize_checks_per_block!
 
-function initialize_genotypes!(conf :: C, num_genotypes :: Int64) where {C <: CheckConfiguration}
+function initialize_entries!(conf :: C, num_entries :: Int64) where {C <: CheckConfiguration}
     # set every non-(-1) element to a random check
     for i in 1:sizex(conf)
         for j in 1:sizey(conf)
@@ -120,20 +120,20 @@ function initialize_genotypes!(conf :: C, num_genotypes :: Int64) where {C <: Ch
             end
         end
     end
-    # find position for every genotype
+    # find position for every entry
     i = rand(1:sizex(conf))
     j = rand(1:sizey(conf))
-    for x in 1:num_genotypes
+    for x in 1:num_entries
         # find random positions
         while !is_check(conf, i,j)
             i = rand(1:sizex(conf))
             j = rand(1:sizey(conf))
         end
-        # set the genotype
-        set_genotype!(conf, i,j)
+        # set the entry
+        set_entry!(conf, i,j)
     end
 end
-export initialize_genotypes!
+export initialize_entries!
 
 
 
@@ -267,7 +267,7 @@ function load_configuration(filename :: String)
         if c < 0
             set_empty!(conf,i,j)
         elseif c == 0
-            set_genotype!(conf,i,j)
+            set_entry!(conf,i,j)
         else
             set_check!(conf, i,j, c)
         end
