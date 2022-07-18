@@ -32,13 +32,14 @@ function LabeledCheckConfiguration(conf :: C) where {C <: CheckConfiguration}
 
     # set all indices to "-1" which indicates an unused index
     indices .= -1
-    # set empty lists for the labels
-    for i in eachindex(lconf.labels)
-        lconf.labels[i] = []
-    end
 
     # build object
     labeled_conf = LabeledCheckConfiguration{C}(conf, indices, labels)
+
+    # set empty lists for the labels
+    for i in eachindex(labeled_conf.labels)
+        labeled_conf.labels[i] = []
+    end
 
     # return object
     return labeled_conf
