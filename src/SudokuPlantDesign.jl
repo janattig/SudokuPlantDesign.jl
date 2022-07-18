@@ -14,6 +14,11 @@ module SudokuPlantDesign
     include("check_configuration/interface.jl")
     include("check_configuration/utility_functions.jl")
 
+    # labeled configuration
+    include("labeled_check_configuration/type_definition.jl")
+    include("labeled_check_configuration/interface.jl")
+    include("labeled_check_configuration/utility_functions.jl")
+
     # include files for monte carlo
     include("monte_carlo/update_type_definition.jl")
     include("monte_carlo/updates/concrete_update_insert_remove.jl")
