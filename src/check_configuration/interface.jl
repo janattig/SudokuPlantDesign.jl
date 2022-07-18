@@ -647,5 +647,6 @@ end
 
 # expor the different interface functions
 export is_check, is_empty, is_entry
+export blocksx, blocksy, blocksizex, blocksizey, numblocks
 export get_check
 export set_check!, set_empty!, set_entry!
