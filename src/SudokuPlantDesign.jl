@@ -18,6 +18,7 @@ module SudokuPlantDesign
     include("labeled_check_configuration/type_definition.jl")
     include("labeled_check_configuration/interface.jl")
     include("labeled_check_configuration/utility_functions.jl")
+    include("labeled_check_configuration/determine_indices.jl")
 
     # include files for monte carlo
     include("monte_carlo/update_type_definition.jl")
