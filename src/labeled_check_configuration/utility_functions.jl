@@ -33,7 +33,7 @@ function show_configuration(
     # plot labels
     for i in 1:sizex(lconf)
         for j in 1:sizey(lconf)
-            if !is_empty(conf, i,j)
+            if !is_empty(lconf.configuration, i,j)
                 plot_label = plot_labels[i,j][1]
                 for l in plot_labels[i,j][2:end]
                     plot_label = plot_label * "\n" * l
