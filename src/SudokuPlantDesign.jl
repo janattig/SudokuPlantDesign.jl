@@ -4,6 +4,7 @@ module SudokuPlantDesign
     using BlockArrays
     using ProgressMeter
     using PyPlot
+    using DataFrames
     using Statistics
     using LinearAlgebra
 
@@ -19,6 +20,7 @@ module SudokuPlantDesign
     include("labeled_check_configuration/interface.jl")
     include("labeled_check_configuration/utility_functions.jl")
     include("labeled_check_configuration/determine_indices.jl")
+    include("labeled_check_configuration/determine_labels.jl")
 
     # include files for monte carlo
     include("monte_carlo/update_type_definition.jl")
