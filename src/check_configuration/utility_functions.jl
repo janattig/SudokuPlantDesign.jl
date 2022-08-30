@@ -157,7 +157,7 @@ function show_configuration(
 
     # show the configuration
     imshow(
-        conf.configuration',
+        collect(conf.configuration'),
         origin="lower",
         interpolation="None",
         alpha=1,
