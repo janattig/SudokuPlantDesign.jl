@@ -6,6 +6,7 @@ module SudokuPlantDesign
     using PyPlot
     using DataFrames
     using Statistics
+    using Random
     using LinearAlgebra
 
 
