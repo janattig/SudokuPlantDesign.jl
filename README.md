@@ -22,7 +22,7 @@ using SudokuPlantDesign
 
 ## Usage / Examples
 
-For diving right in, check out the example about the augmented design, which can be found [here](examples/sudoku_basic.ipynb).
+For diving right in, we recommend following the example about augmented designs, which can be found [[here](examples/sudoku_augmented.ipynb)].
 
 In total, you can find the following example files:
 - basic usage example for the optimization algorithm [[notebook](examples/sudoku_basic.ipynb)]
