@@ -143,6 +143,24 @@ export initialize_entries!
 # Show configuration (PyPlot)
 ########################
 
+function print_info(
+        conf :: C
+    ) where {C <: CheckConfiguration}
+
+    println("Sudoku design with ", conf.N, " different checks")
+    println("- field size: ",sizex(conf)*sizey(conf), " (=$(sizex(conf))x$(sizey(conf)) tiles)")
+    println("   -> blocks: ",blocksx(conf)*blocksy(conf), " (=$(blocksx(conf))x$(blocksy(conf)) blocks)")
+    println("- # empty:   ", sum(conf.configuration .== -1))
+    println("- # plots:   ", sum(conf.configuration .!= -1))
+    println("- # entries: ",conf.num_plots_total - conf.num_checks_total)
+    println("- # checks:  ",conf.num_checks_total, "  (", round(100*conf.num_checks_total / conf.num_plots_total, digits=2), "% of plots)")
+    for i in 1:conf.N
+        println("    -> #($(i)): ",conf.num_checks[i], "  (", round(100*conf.num_checks[i] / conf.num_checks_total, digits=2), "% of checks)")
+    end
+
+end
+export print_info
+
 function show_configuration(
         conf :: C
         ;

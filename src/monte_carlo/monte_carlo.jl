@@ -25,8 +25,6 @@ function optimize_design!(C, updates, K, num_updates = 100000, beta = t -> 1*exp
         mc_update!(C, beta(i/length(cost_values)), updates, K)
         cost_values[i] = K(C)
     end
-    cost_values .-= minimum(cost_values)
-    cost_values .+= 1
     return cost_values
 end
 export optimize_design!
