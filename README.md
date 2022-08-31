@@ -2,7 +2,7 @@
 
 Julia package for Sudoku-like plant design and optimizing the distribution of checks therein.
 
-![check_distribution](improvement_check_distribution.png)
+![check_distribution](figures/improvement_check_distribution.png)
 
 
 
