@@ -23,9 +23,9 @@ using SudokuPlantDesign
 For diving right in, check out the example about the augmented design, which can be found [here](examples/sudoku_basic.ipynb).
 
 In total, you can find the following example files:
-- basic usage example for the optimization algorithm [[notebook]](examples/sudoku_basic.ipynb)
-- example of augmented Sudoku design including how to make a field plan [[notebook]](examples/sudoku_augmented.ipynb)
-- RCBD example [[notebook]](examples/sudoku_RCBD.ipynb)
+- basic usage example for the optimization algorithm [[notebook](examples/sudoku_basic.ipynb)]
+- example of augmented Sudoku design including how to make a field plan [[notebook](examples/sudoku_augmented.ipynb)]
+- RCBD example [[notebook](examples/sudoku_RCBD.ipynb)]
 
 
 
