@@ -29,7 +29,7 @@ In total, you can find the following example files:
 - example of augmented Sudoku design including how to make a field plan [[notebook](examples/sudoku_augmented.ipynb)]
 - example of randomized complete block design (RCBD) [[notebook](examples/sudoku_RCBD.ipynb)]
 
-If you want to dive deeper and see what other options the package provides for each step of the optimization process, have a look at the extensive list of all functions [[notebook](examples/full_list_of_functions_1_optimization)].
+If you want to dive deeper and see what other options the package provides for each step of the optimization process, have a look at the extensive list of all functions of the optimization process [[notebook](examples/full_list_of_functions_1_optimization.ipynb)].
 
 
 
