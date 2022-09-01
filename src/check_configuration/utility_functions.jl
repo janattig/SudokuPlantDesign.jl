@@ -167,8 +167,9 @@ function show_configuration(
         zoom = 1.0,
         title_zoom = 1.0,
         cmap="gist_rainbow",
-		check_labels=true,
-        dpi = 300
+		check_labels::Bool=true,
+        dpi = 300,
+        show_coordinates::Bool=false
     ) where {C <: CheckConfiguration}
 
     # new figure
@@ -191,14 +192,20 @@ function show_configuration(
     for i in 2:length(sx)
         sx[i] += sx[i-1]
     end
+    sx = vcat([0],sx)
     sy = [size(B)[2] for B in blocks(conf.configuration)[1,:]]
     for i in 2:length(sy)
         sy[i] += sy[i-1]
     end
-    axvline(0, color="k")
-    axvline.(sx, color="k")
-    axhline(0, color="k")
-    axhline.(sy, color="k")
+    sy = vcat([0],sy)
+
+    for x in sx
+        plot([x,x], [sy[1], sy[end]], color="k")
+    end
+    for y in sy
+        plot([sx[1],sx[end]], [y, y], color="k")
+    end
+
 
     # text
 	if check_labels
@@ -221,6 +228,21 @@ function show_configuration(
 
     # some title
     title("$(sizex(conf))x$(sizey(conf)) Design  ($(blocksx(conf))x$(blocksy(conf)) blocks)", fontsize=60*zoom*title_zoom)
+
+    # maybe coordinates
+    if show_coordinates
+        quiver(sizex(conf)*0.5 + 1, -1.0, 1.0, 0.0, units="xy", scale=2/(sizex(conf)), pivot="tip", width=0.1)
+        quiver(-1.0, sizey(conf)*0.5 + 1, 0.0, 1.0, units="xy", scale=2/(sizey(conf)), pivot="tip", width=0.1)
+
+        text(sizex(conf)*0.5 + 1.3, -1.0, "x", horizontalalignment="left", verticalalignment="center", fontsize=30*zoom)
+        text(-1.0, sizey(conf)*0.5 + 1.3, "y", horizontalalignment="center", verticalalignment="bottom", fontsize=30*zoom)
+
+        xlim(-1.5, sizex(conf)+1.5)
+        ylim(-1.5, sizey(conf)+0.5)
+    else
+        xlim(-0.5, sizex(conf)+0.5)
+        ylim(-0.5, sizey(conf)+0.5)
+    end
 
     # tighten the layout
     tight_layout()

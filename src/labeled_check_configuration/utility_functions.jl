@@ -9,12 +9,13 @@ function show_configuration(
         title_zoom = 1.0,
         text_zoom = 1.0,
         cmap="gist_rainbow",
-        check_labels=false,
-        dpi = 300
+        check_labels::Bool=false,
+        dpi = 300,
+        show_coordinates::Bool=false
     ) where {C <: CheckConfiguration, LC <: LabeledCheckConfiguration{C}}
 
     # show the configuration
-    show_configuration(lconf.configuration, zoom=zoom, title_zoom=title_zoom, cmap=cmap, check_labels=false, dpi=dpi)
+    show_configuration(lconf.configuration, zoom=zoom, title_zoom=title_zoom, cmap=cmap, check_labels=false, dpi=dpi, show_coordinates=show_coordinates)
 
     # plot the labels and indices
 
