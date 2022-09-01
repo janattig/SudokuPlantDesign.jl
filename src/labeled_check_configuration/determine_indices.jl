@@ -2,28 +2,28 @@ function fill_indices_snake_x!(
         lconf :: LC,
         di,dj
         ;
-        index_for_empty :: Bool = true
+        index_for_empty :: Bool = true,
+        min_i :: Int = -1,
+        min_j :: Int = -1,
+        max_i :: Int = -1,
+        max_j :: Int = -1,
+        i :: Int = -1,
+        j :: Int = -1,
+        start_index :: Int = 1
     ) where {C <: CheckConfiguration, LC <: LabeledCheckConfiguration{C}}
 
     # set the coordinate boundaries and start
-    min_i = 1
-    min_j = 1
-    max_i = sizex(lconf)
-    max_j = sizey(lconf)
+    min_i = (1 <= min_i <= sizex(lconf)) ? min_i : 1
+    min_j = (1 <= min_j <= sizey(lconf)) ? min_j : 1
+    max_i = (1 <= max_i <= sizex(lconf)) ? max_i : sizex(lconf)
+    max_j = (1 <= max_j <= sizey(lconf)) ? max_j : sizey(lconf)
 
-    i = min_i
-    j = min_j
-
-    if di < 0
-        i = max_i
-    end
-    if dj < 0
-        j = max_j
-    end
+    i = (min_i <= i <= max_i) ? i : (di<0 ? max_i : min_i)
+    j = (min_j <= j <= max_j) ? j : (dj<0 ? max_j : min_j)
 
 
     # set current index
-    current_index = 1
+    current_index = start_index
 
 
     # let the snake go through the indices
@@ -60,28 +60,28 @@ function fill_indices_snake_y!(
         lconf :: LC,
         di,dj
         ;
-        index_for_empty :: Bool = true
+        index_for_empty :: Bool = true,
+        min_i :: Int = -1,
+        min_j :: Int = -1,
+        max_i :: Int = -1,
+        max_j :: Int = -1,
+        i :: Int = -1,
+        j :: Int = -1,
+        start_index :: Int = 1
     ) where {C <: CheckConfiguration, LC <: LabeledCheckConfiguration{C}}
 
     # set the coordinate boundaries and start
-    min_i = 1
-    min_j = 1
-    max_i = sizex(lconf)
-    max_j = sizey(lconf)
+    min_i = (1 <= min_i <= sizex(lconf)) ? min_i : 1
+    min_j = (1 <= min_j <= sizey(lconf)) ? min_j : 1
+    max_i = (1 <= max_i <= sizex(lconf)) ? max_i : sizex(lconf)
+    max_j = (1 <= max_j <= sizey(lconf)) ? max_j : sizey(lconf)
 
-    i = min_i
-    j = min_j
-
-    if di < 0
-        i = max_i
-    end
-    if dj < 0
-        j = max_j
-    end
+    i = (min_i <= i <= max_i) ? i : (di<0 ? max_i : min_i)
+    j = (min_j <= j <= max_j) ? j : (dj<0 ? max_j : min_j)
 
 
     # set current index
-    current_index = 1
+    current_index = start_index
 
 
     # let the snake go through the indices
@@ -118,28 +118,28 @@ function fill_indices_lines_x!(
         lconf :: LC,
         di,dj
         ;
-        index_for_empty :: Bool = true
+        index_for_empty :: Bool = true,
+        min_i :: Int = -1,
+        min_j :: Int = -1,
+        max_i :: Int = -1,
+        max_j :: Int = -1,
+        i :: Int = -1,
+        j :: Int = -1,
+        start_index :: Int = 1
     ) where {C <: CheckConfiguration, LC <: LabeledCheckConfiguration{C}}
 
     # set the coordinate boundaries and start
-    min_i = 1
-    min_j = 1
-    max_i = sizex(lconf)
-    max_j = sizey(lconf)
+    min_i = (1 <= min_i <= sizex(lconf)) ? min_i : 1
+    min_j = (1 <= min_j <= sizey(lconf)) ? min_j : 1
+    max_i = (1 <= max_i <= sizex(lconf)) ? max_i : sizex(lconf)
+    max_j = (1 <= max_j <= sizey(lconf)) ? max_j : sizey(lconf)
 
-    i = min_i
-    j = min_j
-
-    if di < 0
-        i = max_i
-    end
-    if dj < 0
-        j = max_j
-    end
+    i = (min_i <= i <= max_i) ? i : (di<0 ? max_i : min_i)
+    j = (min_j <= j <= max_j) ? j : (dj<0 ? max_j : min_j)
 
 
     # set current index
-    current_index = 1
+    current_index = start_index
 
 
     # let the snake go through the indices
@@ -177,28 +177,28 @@ function fill_indices_lines_y!(
         lconf :: LC,
         di,dj
         ;
-        index_for_empty :: Bool = true
+        index_for_empty :: Bool = true,
+        min_i :: Int = -1,
+        min_j :: Int = -1,
+        max_i :: Int = -1,
+        max_j :: Int = -1,
+        i :: Int = -1,
+        j :: Int = -1,
+        start_index :: Int = 1
     ) where {C <: CheckConfiguration, LC <: LabeledCheckConfiguration{C}}
 
     # set the coordinate boundaries and start
-    min_i = 1
-    min_j = 1
-    max_i = sizex(lconf)
-    max_j = sizey(lconf)
+    min_i = (1 <= min_i <= sizex(lconf)) ? min_i : 1
+    min_j = (1 <= min_j <= sizey(lconf)) ? min_j : 1
+    max_i = (1 <= max_i <= sizex(lconf)) ? max_i : sizex(lconf)
+    max_j = (1 <= max_j <= sizey(lconf)) ? max_j : sizey(lconf)
 
-    i = min_i
-    j = min_j
-
-    if di < 0
-        i = max_i
-    end
-    if dj < 0
-        j = max_j
-    end
+    i = (min_i <= i <= max_i) ? i : (di<0 ? max_i : min_i)
+    j = (min_j <= j <= max_j) ? j : (dj<0 ? max_j : min_j)
 
 
     # set current index
-    current_index = 1
+    current_index = start_index
 
 
     # let the snake go through the indices
