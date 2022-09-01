@@ -27,7 +27,9 @@ For diving right in, we recommend following the example about augmented designs,
 In total, you can find the following example files:
 - basic usage example for the optimization algorithm [[notebook](examples/sudoku_basic.ipynb)]
 - example of augmented Sudoku design including how to make a field plan [[notebook](examples/sudoku_augmented.ipynb)]
-- RCBD example [[notebook](examples/sudoku_RCBD.ipynb)]
+- example of randomized complete block design (RCBD) [[notebook](examples/sudoku_RCBD.ipynb)]
+
+If you want to dive deeper and see what other options the package provides for each step of the optimization process, have a look at the extensive list of all functions [[notebook](examples/sudoku_list_of_functions.ipynb)] (TODO).
 
 
 

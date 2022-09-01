@@ -7,8 +7,8 @@ function fill_labels!(
     ) where {C <: CheckConfiguration, LC <: LabeledCheckConfiguration{C}}
 
     # see if the length of the dataframe is correct
-    @assert length(entrydata[:,1]) == sum(lconf.configuration.configuration .== 0) "List of entrydata has wrong length ($(length(entrydata[:,1])), but needs $(sum(lconf.configuration.configuration .== 0))). Please check number of entries!"
-    @assert length(checkdata[:,1]) == lconf.configuration.N "List of checkdata has wrong length ($(length(checkdata[:,1])), but needs $(lconf.configuration.N)). Please check number of checks!"
+    @assert size(entrydata)[1] == sum(lconf.configuration.configuration .== 0) "List of entrydata has wrong length ($(length(entrydata[:,1])), but needs $(sum(lconf.configuration.configuration .== 0))). Please check number of entries!"
+    @assert size(checkdata)[1] == lconf.configuration.N "List of checkdata has wrong length ($(length(checkdata[:,1])), but needs $(lconf.configuration.N)). Please check number of checks!"
 
     # maybe shuffle the entrydata
     if shuffle_entries
