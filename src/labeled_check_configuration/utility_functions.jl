@@ -5,14 +5,16 @@
 function show_configuration(
         lconf :: LC
         ;
-        zoom = 0.2,
+        zoom = 1.0,
+        title_zoom = 1.0,
+        text_zoom = 1.0,
         cmap="gist_rainbow",
         check_labels=false,
         dpi = 300
     ) where {C <: CheckConfiguration, LC <: LabeledCheckConfiguration{C}}
 
     # show the configuration
-    show_configuration(lconf.configuration, zoom=zoom, cmap=cmap, check_labels=false, dpi=dpi)
+    show_configuration(lconf.configuration, zoom=zoom, title_zoom=title_zoom, cmap=cmap, check_labels=false, dpi=dpi)
 
     # plot the labels and indices
 
@@ -27,9 +29,6 @@ function show_configuration(
         end
     end
 
-    # determine zoom
-    zoom = 0.05
-
     # plot labels
     for i in 1:sizex(lconf)
         for j in 1:sizey(lconf)
@@ -39,10 +38,10 @@ function show_configuration(
                     plot_label = plot_label * "\n" * l
                 end
                 # label the check with a the respective labels
-                text(i-0.5,j-0.5, plot_label, horizontalalignment="center", verticalalignment="center", fontsize=30*zoom)
+                text(i-0.5,j-0.5, plot_label, horizontalalignment="center", verticalalignment="center", fontsize=8*text_zoom*zoom)
             else
                 # label empty field by X
-                text(i-0.5,j-0.5, "X", horizontalalignment="center", verticalalignment="center", fontsize=30*zoom)
+                text(i-0.5,j-0.5, "X", horizontalalignment="center", verticalalignment="center", fontsize=8*text_zoom*zoom)
             end
         end
     end

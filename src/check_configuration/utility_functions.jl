@@ -164,7 +164,8 @@ export print_info
 function show_configuration(
         conf :: C
         ;
-        zoom = 0.2,
+        zoom = 1.0,
+        title_zoom = 1.0,
         cmap="gist_rainbow",
 		check_labels=true,
         dpi = 300
@@ -219,7 +220,7 @@ function show_configuration(
     axis("off")
 
     # some title
-    title("$(sizex(conf))x$(sizey(conf)) Design  ($(blocksx(conf))x$(blocksy(conf)) blocks)")
+    title("$(sizex(conf))x$(sizey(conf)) Design  ($(blocksx(conf))x$(blocksy(conf)) blocks)", fontsize=60*zoom*title_zoom)
 
     # tighten the layout
     tight_layout()
