@@ -51,6 +51,8 @@ export empty_plots_in_block!
 
 
 function initialize_checks!(conf :: C, num_checks :: Int64) where {C <: CheckConfiguration}
+    # the total number of available plots has to be bigger than the number of entries
+    @assert conf.num_plots_total >= num_checks "Not enough space for $(num_checks) checks in the design!"
     # set every non-(-1) element to 0
     for i in 1:sizex(conf)
         for j in 1:sizey(conf)
@@ -112,6 +114,8 @@ end
 export initialize_checks_per_block!
 
 function initialize_entries!(conf :: C, num_entries :: Int64) where {C <: CheckConfiguration}
+    # the total number of available plots has to be bigger than the number of entries
+    @assert conf.num_plots_total >= num_entries "Not enough space for $(num_entries) entries in the design!"
     # set every non-(-1) element to a random check
     for i in 1:sizex(conf)
         for j in 1:sizey(conf)
@@ -148,10 +152,10 @@ function print_info(
     ) where {C <: CheckConfiguration}
 
     println("Sudoku design with ", conf.N, " different checks")
-    println("- field size: ",sizex(conf)*sizey(conf), " (=$(sizex(conf))x$(sizey(conf)) tiles)")
+    println("- field size: ",sizex(conf)*sizey(conf), "  (=$(sizex(conf))x$(sizey(conf)) plots)")
     println("   -> blocks: ",blocksx(conf)*blocksy(conf), " (=$(blocksx(conf))x$(blocksy(conf)) blocks)")
-    println("- # empty:   ", sum(conf.configuration .== -1))
-    println("- # plots:   ", sum(conf.configuration .!= -1))
+    println("   -> empty plots:  ", sum(conf.configuration .== -1))
+    println("   -> usable plots: ", sum(conf.configuration .!= -1))
     println("- # entries: ",conf.num_plots_total - conf.num_checks_total)
     println("- # checks:  ",conf.num_checks_total, "  (", round(100*conf.num_checks_total / conf.num_plots_total, digits=2), "% of plots)")
     for i in 1:conf.N
