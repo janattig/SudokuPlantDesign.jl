@@ -1,8 +1,7 @@
 # SudokuPlantDesign.jl
 
-Julia package for Sudoku-like plant design and optimizing the distribution of checks therein.
+Julia package for optimizing Sudoku-like field designs in plant breeding.
 
-![check_distribution](figures/improvement_check_distribution.png)
 
 
 
@@ -18,6 +17,11 @@ You can use the code after having it installed by importing the module as
 using SudokuPlantDesign
 ```
 
+Note, that for reading and saving data in `.xlsx` files (like it is done in the example notebooks), the package `XLSX` is required. Install it via
+```julia-REPL
+add XLSX
+```
+
 
 
 ## Usage / Examples
@@ -26,8 +30,8 @@ For diving right in, we recommend following the example about augmented designs,
 
 In total, you can find the following example files:
 - basic usage example for the optimization algorithm [[notebook](examples/sudoku_basic.ipynb)]
-- example of augmented Sudoku design including how to make a field plan [[notebook](examples/sudoku_augmented.ipynb)]
-- example of randomized complete block design (RCBD) [[notebook](examples/sudoku_RCBD.ipynb)]
+- example of an augmented Sudoku design including how to make a field plan [[notebook](examples/sudoku_augmented.ipynb)]
+- example of a randomized complete block design (RCBD) [[notebook](examples/sudoku_RCBD.ipynb)]
 
 If you want to dive deeper and see what other options the package provides for each step of the optimization process, have a look at the extensive list of all functions of the optimization process [[notebook](examples/full_list_of_functions_1_optimization.ipynb)].
 
@@ -35,8 +39,10 @@ If you want to dive deeper and see what other options the package provides for e
 
 ## Background
 
-This package is inspired by a recent research paper of Vo-Tanh and Piepho 2020 (https://www.sciencedirect.com/science/article/abs/pii/S0167947320300797) with the idea of implementing augmented quasi-Sudoku designs in plant field trials to optimize the check distribution in e.g. augmented designs in plant breeding trials and therefore avoid clustering of checks.
+This package is inspired by a publication of Vo-Tanh and Piepho (2020) (https://www.sciencedirect.com/science/article/abs/pii/S0167947320300797) with the idea of implementing augmented quasi-Sudoku designs in plant field trials. It aimed at optimizing the check distribution in e.g. augmented designs in plant breeding trials by avoiding clustering of checks.
 
-Instead of finding the mathematical optimum, the package SudokuPlantDesign.jl allows for constructing good, but not necessarily best, configurations which serve as sufficiently good estimates to the optimal solution. This is achieved by optimizing check configurations in a combination of simulated annealing and classical Monte Carlo techniques to minimize user-defined cost functions.
+Instead of finding the mathematical optimum as outlined in the paper, the package SudokuPlantDesign.jl allows for constructing configurations which serve as sufficiently good estimates to the optimal solution. This is achieved by optimizing check configurations in a combination of simulated annealing and classical Monte Carlo techniques and minimizing user-defined cost functions. In this process, configurations undergo a sequence of updates which incrementally improve the distribution of breeding candidates.
 
-In practical use, the package allows to find good designs for flexible dimensions of field trials. For example, custom sizes of blocks, custom amounts of entries as well as L-shaped trials are possible to design. Missing plots can be defined before optimization and will be ignored in the allocation of checks and entries. Efficient code-runtime is achieved by only partial calculation of the cost functions in each update, as a lot of buffer variables keep track of other static parts. In practice, this means it takes only a few seconds until a design is optimized.
+![check_distribution](figures/improvement_check_distribution.png)
+
+In practical use, the package allows to find good solutions for many popular experimental designs in plant breeding while remaining adaptible to the user requirements. For example, custom sizes of blocks, custom amounts of entries as well as L-shaped trials are possible to design. Missing plots can be defined before optimization and will be ignored in the allocation of checks and entries. Efficient code-runtime is achieved by only partial calculation of the cost functions in each update, as a lot of buffer variables keep track of other static parts. In practice, this means it takes only a few seconds until a design is optimized.
