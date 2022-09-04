@@ -29,11 +29,10 @@ add XLSX
 For diving right in, we recommend following the example about augmented designs, which can be found [[here](examples/sudoku_augmented.ipynb)].
 
 In total, you can find the following example files:
-- basic usage example for the optimization algorithm [[notebook](examples/sudoku_basic.ipynb)]
 - example of an augmented Sudoku design including how to make a field plan [[notebook](examples/sudoku_augmented.ipynb)]
 - example of a randomized complete block design (RCBD) [[notebook](examples/sudoku_RCBD.ipynb)]
-
-If you want to dive deeper and see what other options the package provides for each step of the optimization process, have a look at the extensive list of all functions of the optimization process [[notebook](examples/full_list_of_functions_1_optimization.ipynb)].
+- basic usage example for the optimization algorithm [[notebook](examples/sudoku_basic.ipynb)]
+- extensive list of functions in the optimization process [[notebook](examples/full_list_of_functions_1_optimization.ipynb)]
 
 
 
