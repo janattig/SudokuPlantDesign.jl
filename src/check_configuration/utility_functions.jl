@@ -157,7 +157,12 @@ function print_info(
     println("   -> empty plots:  ", sum(conf.configuration .== -1))
     println("   -> usable plots: ", sum(conf.configuration .!= -1))
     println("- # entries: ",conf.num_plots_total - conf.num_checks_total)
-    println("- # checks:  ",conf.num_checks_total, "  (", round(100*conf.num_checks_total / conf.num_plots_total, digits=2), "% of plots)")
+    println("   -> ", round(100*sum(conf.configuration .== 0) / sum(conf.configuration .!= -1), digits=2), "% of usable plots")
+    println("   -> entries per block: ", round(sum(conf.configuration .== 0) / (blocksx(conf)*blocksy(conf)), digits=2))
+    println("- # checks:  ",conf.num_checks_total, )
+    println("   -> ", round(100*conf.num_checks_total / sum(conf.configuration .!= -1), digits=2), "% of usable plots")
+    println("   -> checks per block: ", round(sum(conf.configuration .> 0) / (blocksx(conf)*blocksy(conf)), digits=2))
+    println("- # checks distribution:")
     for i in 1:conf.N
         println("    -> #($(i)): ",conf.num_checks[i], "  (", round(100*conf.num_checks[i] / conf.num_checks_total, digits=2), "% of checks)")
     end
