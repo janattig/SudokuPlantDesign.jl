@@ -1,0 +1,3865 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="191.25296mm"
+   height="85.877533mm"
+   viewBox="0 0 191.25296 85.877533"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="title_figure.svg"
+   inkscape:export-filename="D:\Eigene Arbeiten\PackageDevelopement\SudokuPlantDesign.jl\figures\title_figure.png"
+   inkscape:export-xdpi="249.98088"
+   inkscape:export-ydpi="249.98088"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2">
+    <clipPath
+       id="clipPath833"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path831"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath845"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path843"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath855"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path853"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath865"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path863"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath875"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path873"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath885"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path883"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath895"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path893"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath1111"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1109"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath1123"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1121"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath1133"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1131"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath1143"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1141"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath1153"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1151"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath1163"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1161"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath1173"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1171"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath1389"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1387"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath1401"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1399"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath1411"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1409"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath1421"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1419"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath1431"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1429"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath1441"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1439"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath1451"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1449"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath2063"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2061"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath2075"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2073"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath2085"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2083"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath2095"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2093"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath2105"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2103"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath2115"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2113"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath2125"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2123"
+         d="m 10.8,18.184286 h 108 V 187.89857 h -108 z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1472">
+      <path
+         d="M 10.8,19.047692 H 248.4 V 402.86308 H 10.8 Z"
+         id="path1470" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1484">
+      <path
+         d="M 10.8,19.047692 H 248.4 V 402.86308 H 10.8 Z"
+         id="path1482" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1494">
+      <path
+         d="M 10.8,19.047692 H 248.4 V 402.86308 H 10.8 Z"
+         id="path1492" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1504">
+      <path
+         d="M 10.8,19.047692 H 248.4 V 402.86308 H 10.8 Z"
+         id="path1502" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1514">
+      <path
+         d="M 10.8,19.047692 H 248.4 V 402.86308 H 10.8 Z"
+         id="path1512" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1524">
+      <path
+         d="M 10.8,19.047692 H 248.4 V 402.86308 H 10.8 Z"
+         id="path1522" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1534">
+      <path
+         d="M 10.8,19.047692 H 248.4 V 402.86308 H 10.8 Z"
+         id="path1532" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1544">
+      <path
+         d="M 10.8,19.047692 H 248.4 V 402.86308 H 10.8 Z"
+         id="path1542" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1554">
+      <path
+         d="M 10.8,19.047692 H 248.4 V 402.86308 H 10.8 Z"
+         id="path1552" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1564">
+      <path
+         d="M 10.8,19.047692 H 248.4 V 402.86308 H 10.8 Z"
+         id="path1562" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1574">
+      <path
+         d="M 10.8,19.047692 H 248.4 V 402.86308 H 10.8 Z"
+         id="path1572" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2240">
+      <path
+         d="M 10.8,19.047692 H 248.4 V 402.86308 H 10.8 Z"
+         id="path2238" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2252">
+      <path
+         d="M 10.8,19.047692 H 248.4 V 402.86308 H 10.8 Z"
+         id="path2250" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2262">
+      <path
+         d="M 10.8,19.047692 H 248.4 V 402.86308 H 10.8 Z"
+         id="path2260" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2272">
+      <path
+         d="M 10.8,19.047692 H 248.4 V 402.86308 H 10.8 Z"
+         id="path2270" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2282">
+      <path
+         d="M 10.8,19.047692 H 248.4 V 402.86308 H 10.8 Z"
+         id="path2280" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2292">
+      <path
+         d="M 10.8,19.047692 H 248.4 V 402.86308 H 10.8 Z"
+         id="path2290" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2302">
+      <path
+         d="M 10.8,19.047692 H 248.4 V 402.86308 H 10.8 Z"
+         id="path2300" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2312">
+      <path
+         d="M 10.8,19.047692 H 248.4 V 402.86308 H 10.8 Z"
+         id="path2310" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2322">
+      <path
+         d="M 10.8,19.047692 H 248.4 V 402.86308 H 10.8 Z"
+         id="path2320" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2332">
+      <path
+         d="M 10.8,19.047692 H 248.4 V 402.86308 H 10.8 Z"
+         id="path2330" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2342">
+      <path
+         d="M 10.8,19.047692 H 248.4 V 402.86308 H 10.8 Z"
+         id="path2340" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="308.6016"
+     inkscape:cy="213.64726"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1137"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="2"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="1"
+     inkscape:pagecheckerboard="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-63.365486,-197.69708)">
+    <rect
+       style="opacity:1;fill:#ffffff;stroke:none;stroke-width:0.4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect4079"
+       width="226.91182"
+       height="127.75483"
+       x="47.329315"
+       y="179.50609" />
+    <g
+       id="g17432">
+      <g
+         id="g1462"
+         inkscape:label="title_figure_augmented_Sudoku"
+         transform="matrix(0.14944018,0,0,-0.15042176,117.9552,273.9299)">
+        <g
+           id="g1466">
+          <g
+             id="g1468"
+             clip-path="url(#clipPath1472)">
+            <g
+               id="g1474"
+               transform="matrix(220,0,0,366,19.938462,28.186154)">
+              <image
+                 width="1"
+                 height="1"
+                 style="image-rendering:optimizeSpeed"
+                 preserveAspectRatio="none"
+                 transform="matrix(1,0,0,-1,0,1)"
+                 xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAUCAYAAAC58NwRAAAABHNCSVQICAgIfAhkiAAAANxJREFUKJGFk9ERwyAMQ5/ZIezQbtHJ2aJDkCHUj2DXkKTlLhcwPlmSjbFLkgHwrOLdj70v20B7OqujywsTDhSrNlBHDyR1jo8W+xxHx99EE/31m0aqVnKymYCRXFvEs0ZTRxlxFb5qKSvilLx90f0+XJo0LKhe1UyUZ035A0UyctyrSnbYyn62b7XZ42VFDDvdpeGi6zSE/nV46sOUnF0Z55VBcYQrOtqJxLD7dnZujDj1YZqj2lhHp+TDRGs45JRcXzROsmngXHA0bQCdhu/24Qxqp+HLFjrNTO0D81L5l+zRw54AAAAASUVORK5CYII="
+                 id="image1476" />
+            </g>
+          </g>
+        </g>
+        <g
+           id="g1478">
+          <g
+             id="g1480"
+             clip-path="url(#clipPath1484)">
+            <path
+               d="M 19.938462,28.186154 V 393.72461"
+               style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               id="path1486" />
+          </g>
+        </g>
+        <g
+           id="g1488">
+          <g
+             id="g1490"
+             clip-path="url(#clipPath1494)">
+            <path
+               d="M 74.769231,28.186154 V 393.72461"
+               style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               id="path1496" />
+          </g>
+        </g>
+        <g
+           id="g1498">
+          <g
+             id="g1500"
+             clip-path="url(#clipPath1504)">
+            <path
+               d="M 129.6,28.186154 V 393.72461"
+               style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               id="path1506" />
+          </g>
+        </g>
+        <g
+           id="g1508">
+          <g
+             id="g1510"
+             clip-path="url(#clipPath1514)">
+            <path
+               d="M 184.43077,28.186154 V 393.72461"
+               style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               id="path1516" />
+          </g>
+        </g>
+        <g
+           id="g1518">
+          <g
+             id="g1520"
+             clip-path="url(#clipPath1524)">
+            <path
+               d="M 239.26154,28.186154 V 393.72461"
+               style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               id="path1526" />
+          </g>
+        </g>
+        <g
+           id="g1528">
+          <g
+             id="g1530"
+             clip-path="url(#clipPath1534)">
+            <path
+               d="M 19.938462,28.186154 H 239.26154"
+               style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               id="path1536" />
+          </g>
+        </g>
+        <g
+           id="g1538">
+          <g
+             id="g1540"
+             clip-path="url(#clipPath1544)">
+            <path
+               d="M 19.938462,119.57077 H 239.26154"
+               style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               id="path1546" />
+          </g>
+        </g>
+        <g
+           id="g1548">
+          <g
+             id="g1550"
+             clip-path="url(#clipPath1554)">
+            <path
+               d="M 19.938462,210.95538 H 239.26154"
+               style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               id="path1556" />
+          </g>
+        </g>
+        <g
+           id="g1558">
+          <g
+             id="g1560"
+             clip-path="url(#clipPath1564)">
+            <path
+               d="M 19.938462,302.34 H 239.26154"
+               style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               id="path1566" />
+          </g>
+        </g>
+        <g
+           id="g1568">
+          <g
+             id="g1570"
+             clip-path="url(#clipPath1574)">
+            <path
+               d="M 19.938462,393.72461 H 239.26154"
+               style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               id="path1576" />
+          </g>
+        </g>
+        <g
+           id="g1578">
+          <g
+             id="g1580"
+             transform="translate(26.209736,71.394087)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1584"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1582">3</tspan></text>
+          </g>
+          <g
+             id="g1586"
+             transform="translate(26.209736,126.22486)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1590"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1588">4</tspan></text>
+          </g>
+          <g
+             id="g1592"
+             transform="translate(26.209736,181.05562)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1596"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1594">1</tspan></text>
+          </g>
+          <g
+             id="g1598"
+             transform="translate(26.209736,235.88639)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1602"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1600">3</tspan></text>
+          </g>
+          <g
+             id="g1604"
+             transform="translate(26.209736,327.27101)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1608"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1606">4</tspan></text>
+          </g>
+          <g
+             id="g1610"
+             transform="translate(26.209736,382.10178)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1614"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1612">2</tspan></text>
+          </g>
+          <g
+             id="g1616"
+             transform="translate(44.486659,53.117163)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1620"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1618">1</tspan></text>
+          </g>
+          <g
+             id="g1622"
+             transform="translate(44.486659,144.50178)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1626"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1624">2</tspan></text>
+          </g>
+          <g
+             id="g1628"
+             transform="translate(44.486659,217.60947)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1632"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1630">2</tspan></text>
+          </g>
+          <g
+             id="g1634"
+             transform="translate(44.486659,290.71716)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1638"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1636">1</tspan></text>
+          </g>
+          <g
+             id="g1640"
+             transform="translate(44.486659,345.54793)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1644"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1642">3</tspan></text>
+          </g>
+          <g
+             id="g1646"
+             transform="translate(62.763582,34.84024)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1650"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1648">4</tspan></text>
+          </g>
+          <g
+             id="g1652"
+             transform="translate(62.763582,89.67101)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1656"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1654">2</tspan></text>
+          </g>
+          <g
+             id="g1658"
+             transform="translate(62.763582,199.33255)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1662"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1660">3</tspan></text>
+          </g>
+          <g
+             id="g1664"
+             transform="translate(62.763582,272.44024)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1668"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1666">4</tspan></text>
+          </g>
+          <g
+             id="g1670"
+             transform="translate(62.763582,363.82486)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1674"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1672">1</tspan></text>
+          </g>
+          <g
+             id="g1676"
+             transform="translate(81.040505,71.394087)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1680"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1678">4</tspan></text>
+          </g>
+          <g
+             id="g1682"
+             transform="translate(81.040505,126.22486)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1686"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1684">3</tspan></text>
+          </g>
+          <g
+             id="g1688"
+             transform="translate(81.040505,162.7787)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1692"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1690">1</tspan></text>
+          </g>
+          <g
+             id="g1694"
+             transform="translate(81.040505,235.88639)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1698"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1696">4</tspan></text>
+          </g>
+          <g
+             id="g1700"
+             transform="translate(81.040505,308.99409)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1704"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1702">2</tspan></text>
+          </g>
+          <g
+             id="g1706"
+             transform="translate(81.040505,382.10178)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1710"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1708">3</tspan></text>
+          </g>
+          <g
+             id="g1712"
+             transform="translate(99.317428,53.117163)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1716"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1714">2</tspan></text>
+          </g>
+          <g
+             id="g1718"
+             transform="translate(99.317428,107.94793)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1722"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1720">1</tspan></text>
+          </g>
+          <g
+             id="g1724"
+             transform="translate(99.317428,181.05562)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1728"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1726">2</tspan></text>
+          </g>
+          <g
+             id="g1730"
+             transform="translate(99.317428,217.60947)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1734"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1732">1</tspan></text>
+          </g>
+          <g
+             id="g1736"
+             transform="translate(99.317428,290.71716)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1740"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1738">3</tspan></text>
+          </g>
+          <g
+             id="g1742"
+             transform="translate(99.317428,345.54793)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1746"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1744">4</tspan></text>
+          </g>
+          <g
+             id="g1748"
+             transform="translate(117.59435,34.84024)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1752"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1750">3</tspan></text>
+          </g>
+          <g
+             id="g1754"
+             transform="translate(117.59435,144.50178)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1758"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1756">4</tspan></text>
+          </g>
+          <g
+             id="g1760"
+             transform="translate(117.59435,254.16332)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1764"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1762">2</tspan></text>
+          </g>
+          <g
+             id="g1766"
+             transform="translate(117.59435,327.27101)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1770"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1768">1</tspan></text>
+          </g>
+          <g
+             id="g1772"
+             transform="translate(135.87127,71.394087)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1776"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1774">1</tspan></text>
+          </g>
+          <g
+             id="g1778"
+             transform="translate(135.87127,126.22486)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1782"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1780">2</tspan></text>
+          </g>
+          <g
+             id="g1784"
+             transform="translate(135.87127,199.33255)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1788"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1786">4</tspan></text>
+          </g>
+          <g
+             id="g1790"
+             transform="translate(135.87127,235.88639)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1794"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1792">3</tspan></text>
+          </g>
+          <g
+             id="g1796"
+             transform="translate(135.87127,308.99409)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1800"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1798">4</tspan></text>
+          </g>
+          <g
+             id="g1802"
+             transform="translate(135.87127,363.82486)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1806"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1804">2</tspan></text>
+          </g>
+          <g
+             id="g1808"
+             transform="translate(154.1482,34.84024)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1812"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1810">2</tspan></text>
+          </g>
+          <g
+             id="g1814"
+             transform="translate(154.1482,107.94793)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1818"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1816">4</tspan></text>
+          </g>
+          <g
+             id="g1820"
+             transform="translate(154.1482,162.7787)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1824"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1822">1</tspan></text>
+          </g>
+          <g
+             id="g1826"
+             transform="translate(154.1482,272.44024)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1830"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1828">1</tspan></text>
+          </g>
+          <g
+             id="g1832"
+             transform="translate(154.1482,345.54793)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1836"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1834">3</tspan></text>
+          </g>
+          <g
+             id="g1838"
+             transform="translate(172.42512,89.67101)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1842"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1840">3</tspan></text>
+          </g>
+          <g
+             id="g1844"
+             transform="translate(172.42512,144.50178)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1848"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1846">3</tspan></text>
+          </g>
+          <g
+             id="g1850"
+             transform="translate(172.42512,217.60947)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1854"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1852">4</tspan></text>
+          </g>
+          <g
+             id="g1856"
+             transform="translate(172.42512,290.71716)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1860"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1858">2</tspan></text>
+          </g>
+          <g
+             id="g1862"
+             transform="translate(172.42512,382.10178)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1866"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1864">1</tspan></text>
+          </g>
+          <g
+             id="g1868"
+             transform="translate(190.70204,53.117163)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1872"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1870">4</tspan></text>
+          </g>
+          <g
+             id="g1874"
+             transform="translate(190.70204,126.22486)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1878"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1876">1</tspan></text>
+          </g>
+          <g
+             id="g1880"
+             transform="translate(190.70204,181.05562)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1884"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1882">2</tspan></text>
+          </g>
+          <g
+             id="g1886"
+             transform="translate(190.70204,254.16332)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1890"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1888">3</tspan></text>
+          </g>
+          <g
+             id="g1892"
+             transform="translate(190.70204,327.27101)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1896"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1894">2</tspan></text>
+          </g>
+          <g
+             id="g1898"
+             transform="translate(208.97897,34.84024)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1902"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1900">3</tspan></text>
+          </g>
+          <g
+             id="g1904"
+             transform="translate(208.97897,89.67101)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1908"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1906">1</tspan></text>
+          </g>
+          <g
+             id="g1910"
+             transform="translate(208.97897,162.7787)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1914"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1912">3</tspan></text>
+          </g>
+          <g
+             id="g1916"
+             transform="translate(208.97897,217.60947)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1920"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1918">1</tspan></text>
+          </g>
+          <g
+             id="g1922"
+             transform="translate(208.97897,272.44024)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1926"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1924">4</tspan></text>
+          </g>
+          <g
+             id="g1928"
+             transform="translate(208.97897,345.54793)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1932"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1930">1</tspan></text>
+          </g>
+          <g
+             id="g1934"
+             transform="translate(227.25589,107.94793)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1938"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1936">2</tspan></text>
+          </g>
+          <g
+             id="g1940"
+             transform="translate(227.25589,199.33255)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1944"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1942">4</tspan></text>
+          </g>
+          <g
+             id="g1946"
+             transform="translate(227.25589,254.16332)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1950"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1948">2</tspan></text>
+          </g>
+          <g
+             id="g1952"
+             transform="translate(227.25589,308.99409)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1956"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1954">3</tspan></text>
+          </g>
+          <g
+             id="g1958"
+             transform="translate(227.25589,363.82486)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text1962"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan1960">4</tspan></text>
+          </g>
+          <g
+             id="g1964"
+             transform="translate(55.709375,408.86308)" />
+        </g>
+      </g>
+      <g
+         id="g2230"
+         inkscape:label="title_figure_augmented_initial"
+         transform="matrix(0.14944105,0,0,-0.15042263,74.563635,273.93025)">
+        <g
+           id="g2234">
+          <g
+             id="g2236"
+             clip-path="url(#clipPath2240)">
+            <g
+               id="g2242"
+               transform="matrix(220,0,0,366,19.938462,28.186154)">
+              <image
+                 width="1"
+                 height="1"
+                 style="image-rendering:optimizeSpeed"
+                 preserveAspectRatio="none"
+                 transform="matrix(1,0,0,-1,0,1)"
+                 xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAUCAYAAAC58NwRAAAABHNCSVQICAgIfAhkiAAAAOxJREFUKJF9ktF1hTAMQ684HaFkB5jidXKYgu5AhtD7eNgknLT+gQTbkpDkE/NPaQbX+zzlW9lYi5H6eVe6uxxQfXGwYwuAtdxNy9wgPik9KTxrWotRsyGak0bZ8ql5gJAf6wu+1aFJRhiHsOAfGo5T3R7NMFlbJ0zysBnA2saURsJjyfRsTuEh9qpAvH2Qkw58fBlVDiwz2MpN7Q8YDhzs9+1Fp3U7mYTop9D2vBbzWz+oiTBsvpAiY5rhKwS3nBcZ2OH86Txx/SMaIx9iae/DRcGVDGSEMBhMrUHtvw+EpBppxXjRODvPWot5A9RailpxqkmqAAAAAElFTkSuQmCC"
+                 id="image2244" />
+            </g>
+          </g>
+        </g>
+        <g
+           id="g2246">
+          <g
+             id="g2248"
+             clip-path="url(#clipPath2252)">
+            <path
+               d="M 19.938462,28.186154 V 393.72461"
+               style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               id="path2254" />
+          </g>
+        </g>
+        <g
+           id="g2256">
+          <g
+             id="g2258"
+             clip-path="url(#clipPath2262)">
+            <path
+               d="M 74.769231,28.186154 V 393.72461"
+               style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               id="path2264" />
+          </g>
+        </g>
+        <g
+           id="g2266">
+          <g
+             id="g2268"
+             clip-path="url(#clipPath2272)">
+            <path
+               d="M 129.6,28.186154 V 393.72461"
+               style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               id="path2274" />
+          </g>
+        </g>
+        <g
+           id="g2276">
+          <g
+             id="g2278"
+             clip-path="url(#clipPath2282)">
+            <path
+               d="M 184.43077,28.186154 V 393.72461"
+               style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               id="path2284" />
+          </g>
+        </g>
+        <g
+           id="g2286">
+          <g
+             id="g2288"
+             clip-path="url(#clipPath2292)">
+            <path
+               d="M 239.26154,28.186154 V 393.72461"
+               style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               id="path2294" />
+          </g>
+        </g>
+        <g
+           id="g2296">
+          <g
+             id="g2298"
+             clip-path="url(#clipPath2302)">
+            <path
+               d="M 19.938462,28.186154 H 239.26154"
+               style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               id="path2304" />
+          </g>
+        </g>
+        <g
+           id="g2306">
+          <g
+             id="g2308"
+             clip-path="url(#clipPath2312)">
+            <path
+               d="M 19.938462,119.57077 H 239.26154"
+               style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               id="path2314" />
+          </g>
+        </g>
+        <g
+           id="g2316">
+          <g
+             id="g2318"
+             clip-path="url(#clipPath2322)">
+            <path
+               d="M 19.938462,210.95538 H 239.26154"
+               style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               id="path2324" />
+          </g>
+        </g>
+        <g
+           id="g2326">
+          <g
+             id="g2328"
+             clip-path="url(#clipPath2332)">
+            <path
+               d="M 19.938462,302.34 H 239.26154"
+               style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               id="path2334" />
+          </g>
+        </g>
+        <g
+           id="g2336">
+          <g
+             id="g2338"
+             clip-path="url(#clipPath2342)">
+            <path
+               d="M 19.938462,393.72461 H 239.26154"
+               style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+               id="path2344" />
+          </g>
+        </g>
+        <g
+           id="g2346">
+          <g
+             id="g2348"
+             transform="translate(26.209736,34.84024)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2352"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2350">1</tspan></text>
+          </g>
+          <g
+             id="g2354"
+             transform="translate(26.209736,53.117163)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2358"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2356">4</tspan></text>
+          </g>
+          <g
+             id="g2360"
+             transform="translate(26.209736,254.16332)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2364"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2362">4</tspan></text>
+          </g>
+          <g
+             id="g2366"
+             transform="translate(26.209736,272.44024)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2370"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2368">1</tspan></text>
+          </g>
+          <g
+             id="g2372"
+             transform="translate(26.209736,308.99409)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2376"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2374">3</tspan></text>
+          </g>
+          <g
+             id="g2378"
+             transform="translate(44.486659,34.84024)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2382"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2380">3</tspan></text>
+          </g>
+          <g
+             id="g2384"
+             transform="translate(44.486659,107.94793)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2388"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2386">2</tspan></text>
+          </g>
+          <g
+             id="g2390"
+             transform="translate(44.486659,308.99409)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2394"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2392">1</tspan></text>
+          </g>
+          <g
+             id="g2396"
+             transform="translate(62.763582,144.50178)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2400"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2398">1</tspan></text>
+          </g>
+          <g
+             id="g2402"
+             transform="translate(62.763582,162.7787)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2406"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2404">4</tspan></text>
+          </g>
+          <g
+             id="g2408"
+             transform="translate(62.763582,181.05562)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2412"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2410">3</tspan></text>
+          </g>
+          <g
+             id="g2414"
+             transform="translate(62.763582,199.33255)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2418"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2416">2</tspan></text>
+          </g>
+          <g
+             id="g2420"
+             transform="translate(62.763582,254.16332)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2424"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2422">3</tspan></text>
+          </g>
+          <g
+             id="g2426"
+             transform="translate(62.763582,272.44024)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2430"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2428">2</tspan></text>
+          </g>
+          <g
+             id="g2432"
+             transform="translate(62.763582,345.54793)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2436"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2434">2</tspan></text>
+          </g>
+          <g
+             id="g2438"
+             transform="translate(62.763582,363.82486)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2442"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2440">4</tspan></text>
+          </g>
+          <g
+             id="g2444"
+             transform="translate(81.040505,53.117163)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2448"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2446">2</tspan></text>
+          </g>
+          <g
+             id="g2450"
+             transform="translate(81.040505,71.394087)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2454"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2452">4</tspan></text>
+          </g>
+          <g
+             id="g2456"
+             transform="translate(81.040505,199.33255)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2460"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2458">2</tspan></text>
+          </g>
+          <g
+             id="g2462"
+             transform="translate(81.040505,345.54793)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2466"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2464">4</tspan></text>
+          </g>
+          <g
+             id="g2468"
+             transform="translate(81.040505,363.82486)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2472"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2470">3</tspan></text>
+          </g>
+          <g
+             id="g2474"
+             transform="translate(99.317428,199.33255)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2478"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2476">3</tspan></text>
+          </g>
+          <g
+             id="g2480"
+             transform="translate(99.317428,254.16332)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2484"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2482">2</tspan></text>
+          </g>
+          <g
+             id="g2486"
+             transform="translate(99.317428,327.27101)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2490"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2488">1</tspan></text>
+          </g>
+          <g
+             id="g2492"
+             transform="translate(99.317428,363.82486)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2496"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2494">2</tspan></text>
+          </g>
+          <g
+             id="g2498"
+             transform="translate(117.59435,89.67101)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2502"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2500">1</tspan></text>
+          </g>
+          <g
+             id="g2504"
+             transform="translate(117.59435,107.94793)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2508"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2506">3</tspan></text>
+          </g>
+          <g
+             id="g2510"
+             transform="translate(117.59435,126.22486)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2514"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2512">1</tspan></text>
+          </g>
+          <g
+             id="g2516"
+             transform="translate(117.59435,162.7787)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2520"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2518">4</tspan></text>
+          </g>
+          <g
+             id="g2522"
+             transform="translate(117.59435,235.88639)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2526"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2524">1</tspan></text>
+          </g>
+          <g
+             id="g2528"
+             transform="translate(117.59435,254.16332)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2532"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2530">3</tspan></text>
+          </g>
+          <g
+             id="g2534"
+             transform="translate(117.59435,290.71716)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2538"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2536">4</tspan></text>
+          </g>
+          <g
+             id="g2540"
+             transform="translate(135.87127,71.394087)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2544"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2542">1</tspan></text>
+          </g>
+          <g
+             id="g2546"
+             transform="translate(135.87127,107.94793)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2550"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2548">4</tspan></text>
+          </g>
+          <g
+             id="g2552"
+             transform="translate(135.87127,144.50178)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2556"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2554">1</tspan></text>
+          </g>
+          <g
+             id="g2558"
+             transform="translate(135.87127,199.33255)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2562"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2560">2</tspan></text>
+          </g>
+          <g
+             id="g2564"
+             transform="translate(135.87127,217.60947)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2568"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2566">4</tspan></text>
+          </g>
+          <g
+             id="g2570"
+             transform="translate(135.87127,272.44024)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2574"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2572">3</tspan></text>
+          </g>
+          <g
+             id="g2576"
+             transform="translate(135.87127,290.71716)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2580"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2578">2</tspan></text>
+          </g>
+          <g
+             id="g2582"
+             transform="translate(135.87127,308.99409)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2586"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2584">2</tspan></text>
+          </g>
+          <g
+             id="g2588"
+             transform="translate(135.87127,345.54793)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2592"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2590">3</tspan></text>
+          </g>
+          <g
+             id="g2594"
+             transform="translate(154.1482,126.22486)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2598"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2596">4</tspan></text>
+          </g>
+          <g
+             id="g2600"
+             transform="translate(154.1482,162.7787)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2604"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2602">3</tspan></text>
+          </g>
+          <g
+             id="g2606"
+             transform="translate(154.1482,290.71716)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2610"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2608">1</tspan></text>
+          </g>
+          <g
+             id="g2612"
+             transform="translate(172.42512,71.394087)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2616"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2614">2</tspan></text>
+          </g>
+          <g
+             id="g2618"
+             transform="translate(172.42512,107.94793)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2622"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2620">3</tspan></text>
+          </g>
+          <g
+             id="g2624"
+             transform="translate(172.42512,308.99409)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2628"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2626">4</tspan></text>
+          </g>
+          <g
+             id="g2630"
+             transform="translate(172.42512,382.10178)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2634"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2632">1</tspan></text>
+          </g>
+          <g
+             id="g2636"
+             transform="translate(190.70204,126.22486)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2640"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2638">4</tspan></text>
+          </g>
+          <g
+             id="g2642"
+             transform="translate(190.70204,144.50178)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2646"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2644">3</tspan></text>
+          </g>
+          <g
+             id="g2648"
+             transform="translate(190.70204,345.54793)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2652"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2650">3</tspan></text>
+          </g>
+          <g
+             id="g2654"
+             transform="translate(190.70204,363.82486)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2658"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2656">2</tspan></text>
+          </g>
+          <g
+             id="g2660"
+             transform="translate(208.97897,53.117163)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2664"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2662">4</tspan></text>
+          </g>
+          <g
+             id="g2666"
+             transform="translate(208.97897,89.67101)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2670"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2668">2</tspan></text>
+          </g>
+          <g
+             id="g2672"
+             transform="translate(208.97897,144.50178)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2676"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2674">2</tspan></text>
+          </g>
+          <g
+             id="g2678"
+             transform="translate(208.97897,235.88639)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2682"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2680">3</tspan></text>
+          </g>
+          <g
+             id="g2684"
+             transform="translate(208.97897,308.99409)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2688"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2686">4</tspan></text>
+          </g>
+          <g
+             id="g2690"
+             transform="translate(227.25589,34.84024)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2694"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2692">3</tspan></text>
+          </g>
+          <g
+             id="g2696"
+             transform="translate(227.25589,53.117163)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2700"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2698">1</tspan></text>
+          </g>
+          <g
+             id="g2702"
+             transform="translate(227.25589,126.22486)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2706"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2704">1</tspan></text>
+          </g>
+          <g
+             id="g2708"
+             transform="translate(227.25589,254.16332)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2712"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2710">4</tspan></text>
+          </g>
+          <g
+             id="g2714"
+             transform="translate(227.25589,272.44024)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2718"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2716">1</tspan></text>
+          </g>
+          <g
+             id="g2720"
+             transform="translate(227.25589,290.71716)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2724"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2722">2</tspan></text>
+          </g>
+          <g
+             id="g2726"
+             transform="translate(227.25589,308.99409)">
+            <text
+               transform="scale(1,-1)"
+               style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="text2730"><tspan
+                 x="0"
+                 y="0"
+                 id="tspan2728">1</tspan></text>
+          </g>
+          <g
+             id="g2732"
+             transform="translate(55.709375,408.86308)" />
+        </g>
+      </g>
+      <g
+         id="g3351">
+        <g
+           transform="matrix(0.35277777,0,0,-0.35277777,201.53206,278.52214)"
+           inkscape:label="title_figure_RCBD_initial"
+           id="g1379">
+          <g
+             id="g1383">
+            <g
+               clip-path="url(#clipPath1389)"
+               id="g1385">
+              <g
+                 transform="matrix(93,0,0,155,18.514286,25.898571)"
+                 id="g1391">
+                <image
+                   id="image1393"
+                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAKCAYAAACXDi8zAAAABHNCSVQICAgIfAhkiAAAAHxJREFUCJk1z6GRwwAQQ9HfhWmaME5HgWkg0NztBBm6ATMXkBregZ0DC3ZG+pLKKpuH+OQZ2dQLff2ig6xcac+olrlTcis312Aesmfcp7ylY5C9zJ/bM3xGra+sE57VqQm18Um/TNUrp6n7kFrG/paW4f+ibPb/DQeDvv0BvR6YOd0LUJUAAAAASUVORK5CYII="
+                   transform="matrix(1,0,0,-1,0,1)"
+                   preserveAspectRatio="none"
+                   style="image-rendering:optimizeSpeed"
+                   height="1"
+                   width="1" />
+              </g>
+            </g>
+          </g>
+          <g
+             id="g1395">
+            <g
+               clip-path="url(#clipPath1401)"
+               id="g1397">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path1403"
+                 style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                 d="M 18.514286,25.898571 V 180.18429" />
+            </g>
+          </g>
+          <g
+             id="g1405">
+            <g
+               clip-path="url(#clipPath1411)"
+               id="g1407">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path1413"
+                 style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                 d="M 64.8,25.898571 V 180.18429" />
+            </g>
+          </g>
+          <g
+             id="g1415">
+            <g
+               clip-path="url(#clipPath1421)"
+               id="g1417">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path1423"
+                 style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                 d="M 111.08571,25.898571 V 180.18429" />
+            </g>
+          </g>
+          <g
+             id="g1425">
+            <g
+               clip-path="url(#clipPath1431)"
+               id="g1427">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path1433"
+                 style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                 d="M 18.514286,25.898571 H 111.08571" />
+            </g>
+          </g>
+          <g
+             id="g1435">
+            <g
+               clip-path="url(#clipPath1441)"
+               id="g1437">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path1443"
+                 style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                 d="M 18.514286,103.04143 H 111.08571" />
+            </g>
+          </g>
+          <g
+             id="g1445">
+            <g
+               clip-path="url(#clipPath1451)"
+               id="g1447">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path1453"
+                 style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                 d="M 18.514286,180.18429 H 111.08571" />
+            </g>
+          </g>
+          <g
+             id="g1455">
+            <g
+               transform="translate(23.361384,31.128482)"
+               id="g1457">
+              <text
+                 id="text1461"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1459"
+                   y="0"
+                   x="0">7</tspan></text>
+            </g>
+            <g
+               transform="translate(20.494196,46.557054)"
+               id="g1463">
+              <text
+                 id="text1467"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan1465"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">11</tspan></text>
+            </g>
+            <g
+               transform="translate(20.494196,61.985625)"
+               id="g1469">
+              <text
+                 id="text1473"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan1471"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">14</tspan></text>
+            </g>
+            <g
+               transform="translate(20.494196,77.414196)"
+               id="g1475">
+              <text
+                 id="text1479"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan1477"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">10</tspan></text>
+            </g>
+            <g
+               transform="translate(23.361384,92.842768)"
+               id="g1481">
+              <text
+                 id="text1485"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1483"
+                   y="0"
+                   x="0">8</tspan></text>
+            </g>
+            <g
+               transform="translate(23.361384,108.27134)"
+               id="g1487">
+              <text
+                 id="text1491"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1489"
+                   y="0"
+                   x="0">3</tspan></text>
+            </g>
+            <g
+               transform="translate(23.361384,123.69991)"
+               id="g1493">
+              <text
+                 id="text1497"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1495"
+                   y="0"
+                   x="0">8</tspan></text>
+            </g>
+            <g
+               transform="translate(20.494196,139.12848)"
+               id="g1499">
+              <text
+                 id="text1503"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan1501"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">13</tspan></text>
+            </g>
+            <g
+               transform="translate(20.494196,154.55705)"
+               id="g1505">
+              <text
+                 id="text1509"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan1507"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">10</tspan></text>
+            </g>
+            <g
+               transform="translate(23.361384,169.98562)"
+               id="g1511">
+              <text
+                 id="text1515"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1513"
+                   y="0"
+                   x="0">6</tspan></text>
+            </g>
+            <g
+               transform="translate(35.922768,31.128482)"
+               id="g1517">
+              <text
+                 id="text1521"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan1519"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">13</tspan></text>
+            </g>
+            <g
+               transform="translate(35.922768,46.557054)"
+               id="g1523">
+              <text
+                 id="text1527"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan1525"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">15</tspan></text>
+            </g>
+            <g
+               transform="translate(38.789955,61.985625)"
+               id="g1529">
+              <text
+                 id="text1533"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1531"
+                   y="0"
+                   x="0">5</tspan></text>
+            </g>
+            <g
+               transform="translate(38.789955,77.414196)"
+               id="g1535">
+              <text
+                 id="text1539"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1537"
+                   y="0"
+                   x="0">6</tspan></text>
+            </g>
+            <g
+               transform="translate(35.922768,92.842768)"
+               id="g1541">
+              <text
+                 id="text1545"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan1543"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">12</tspan></text>
+            </g>
+            <g
+               transform="translate(38.789955,108.27134)"
+               id="g1547">
+              <text
+                 id="text1551"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1549"
+                   y="0"
+                   x="0">4</tspan></text>
+            </g>
+            <g
+               transform="translate(38.789955,123.69991)"
+               id="g1553">
+              <text
+                 id="text1557"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1555"
+                   y="0"
+                   x="0">2</tspan></text>
+            </g>
+            <g
+               transform="translate(35.922768,139.12848)"
+               id="g1559">
+              <text
+                 id="text1563"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan1561"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">12</tspan></text>
+            </g>
+            <g
+               transform="translate(35.922768,154.55705)"
+               id="g1565">
+              <text
+                 id="text1569"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan1567"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">15</tspan></text>
+            </g>
+            <g
+               transform="translate(38.789955,169.98562)"
+               id="g1571">
+              <text
+                 id="text1575"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1573"
+                   y="0"
+                   x="0">7</tspan></text>
+            </g>
+            <g
+               transform="translate(54.218527,31.128482)"
+               id="g1577">
+              <text
+                 id="text1581"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1579"
+                   y="0"
+                   x="0">9</tspan></text>
+            </g>
+            <g
+               transform="translate(54.218527,46.557054)"
+               id="g1583">
+              <text
+                 id="text1587"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1585"
+                   y="0"
+                   x="0">4</tspan></text>
+            </g>
+            <g
+               transform="translate(54.218527,61.985625)"
+               id="g1589">
+              <text
+                 id="text1593"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1591"
+                   y="0"
+                   x="0">2</tspan></text>
+            </g>
+            <g
+               transform="translate(54.218527,77.414196)"
+               id="g1595">
+              <text
+                 id="text1599"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1597"
+                   y="0"
+                   x="0">3</tspan></text>
+            </g>
+            <g
+               transform="translate(54.218527,92.842768)"
+               id="g1601">
+              <text
+                 id="text1605"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1603"
+                   y="0"
+                   x="0">1</tspan></text>
+            </g>
+            <g
+               transform="translate(54.218527,108.27134)"
+               id="g1607">
+              <text
+                 id="text1611"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1609"
+                   y="0"
+                   x="0">9</tspan></text>
+            </g>
+            <g
+               transform="translate(54.218527,123.69991)"
+               id="g1613">
+              <text
+                 id="text1617"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1615"
+                   y="0"
+                   x="0">1</tspan></text>
+            </g>
+            <g
+               transform="translate(51.351339,139.12848)"
+               id="g1619">
+              <text
+                 id="text1623"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan1621"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">11</tspan></text>
+            </g>
+            <g
+               transform="translate(51.351339,154.55705)"
+               id="g1625">
+              <text
+                 id="text1629"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan1627"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">14</tspan></text>
+            </g>
+            <g
+               transform="translate(54.218527,169.98562)"
+               id="g1631">
+              <text
+                 id="text1635"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1633"
+                   y="0"
+                   x="0">5</tspan></text>
+            </g>
+            <g
+               transform="translate(69.647098,31.128482)"
+               id="g1637">
+              <text
+                 id="text1641"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1639"
+                   y="0"
+                   x="0">9</tspan></text>
+            </g>
+            <g
+               transform="translate(66.779911,46.557054)"
+               id="g1643">
+              <text
+                 id="text1647"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan1645"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">11</tspan></text>
+            </g>
+            <g
+               transform="translate(69.647098,61.985625)"
+               id="g1649">
+              <text
+                 id="text1653"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1651"
+                   y="0"
+                   x="0">3</tspan></text>
+            </g>
+            <g
+               transform="translate(69.647098,77.414196)"
+               id="g1655">
+              <text
+                 id="text1659"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1657"
+                   y="0"
+                   x="0">2</tspan></text>
+            </g>
+            <g
+               transform="translate(66.779911,92.842768)"
+               id="g1661">
+              <text
+                 id="text1665"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan1663"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">13</tspan></text>
+            </g>
+            <g
+               transform="translate(66.779911,108.27134)"
+               id="g1667">
+              <text
+                 id="text1671"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan1669"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">15</tspan></text>
+            </g>
+            <g
+               transform="translate(69.647098,123.69991)"
+               id="g1673">
+              <text
+                 id="text1677"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1675"
+                   y="0"
+                   x="0">5</tspan></text>
+            </g>
+            <g
+               transform="translate(66.779911,139.12848)"
+               id="g1679">
+              <text
+                 id="text1683"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan1681"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">11</tspan></text>
+            </g>
+            <g
+               transform="translate(69.647098,154.55705)"
+               id="g1685">
+              <text
+                 id="text1689"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1687"
+                   y="0"
+                   x="0">9</tspan></text>
+            </g>
+            <g
+               transform="translate(69.647098,169.98562)"
+               id="g1691">
+              <text
+                 id="text1695"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1693"
+                   y="0"
+                   x="0">1</tspan></text>
+            </g>
+            <g
+               transform="translate(82.208482,31.128482)"
+               id="g1697">
+              <text
+                 id="text1701"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan1699"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">10</tspan></text>
+            </g>
+            <g
+               transform="translate(85.07567,46.557054)"
+               id="g1703">
+              <text
+                 id="text1707"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1705"
+                   y="0"
+                   x="0">4</tspan></text>
+            </g>
+            <g
+               transform="translate(82.208482,61.985625)"
+               id="g1709">
+              <text
+                 id="text1713"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan1711"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">12</tspan></text>
+            </g>
+            <g
+               transform="translate(85.07567,77.414196)"
+               id="g1715">
+              <text
+                 id="text1719"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1717"
+                   y="0"
+                   x="0">7</tspan></text>
+            </g>
+            <g
+               transform="translate(82.208482,92.842768)"
+               id="g1721">
+              <text
+                 id="text1725"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan1723"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">15</tspan></text>
+            </g>
+            <g
+               transform="translate(82.208482,108.27134)"
+               id="g1727">
+              <text
+                 id="text1731"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan1729"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">10</tspan></text>
+            </g>
+            <g
+               transform="translate(82.208482,123.69991)"
+               id="g1733">
+              <text
+                 id="text1737"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan1735"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">13</tspan></text>
+            </g>
+            <g
+               transform="translate(85.07567,139.12848)"
+               id="g1739">
+              <text
+                 id="text1743"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1741"
+                   y="0"
+                   x="0">3</tspan></text>
+            </g>
+            <g
+               transform="translate(85.07567,154.55705)"
+               id="g1745">
+              <text
+                 id="text1749"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1747"
+                   y="0"
+                   x="0">6</tspan></text>
+            </g>
+            <g
+               transform="translate(82.208482,169.98562)"
+               id="g1751">
+              <text
+                 id="text1755"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan1753"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">12</tspan></text>
+            </g>
+            <g
+               transform="translate(100.50424,31.128482)"
+               id="g1757">
+              <text
+                 id="text1761"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1759"
+                   y="0"
+                   x="0">8</tspan></text>
+            </g>
+            <g
+               transform="translate(97.637054,46.557054)"
+               id="g1763">
+              <text
+                 id="text1767"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan1765"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">14</tspan></text>
+            </g>
+            <g
+               transform="translate(100.50424,61.985625)"
+               id="g1769">
+              <text
+                 id="text1773"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1771"
+                   y="0"
+                   x="0">5</tspan></text>
+            </g>
+            <g
+               transform="translate(100.50424,77.414196)"
+               id="g1775">
+              <text
+                 id="text1779"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1777"
+                   y="0"
+                   x="0">1</tspan></text>
+            </g>
+            <g
+               transform="translate(100.50424,92.842768)"
+               id="g1781">
+              <text
+                 id="text1785"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1783"
+                   y="0"
+                   x="0">6</tspan></text>
+            </g>
+            <g
+               transform="translate(100.50424,108.27134)"
+               id="g1787">
+              <text
+                 id="text1791"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1789"
+                   y="0"
+                   x="0">4</tspan></text>
+            </g>
+            <g
+               transform="translate(97.637054,123.69991)"
+               id="g1793">
+              <text
+                 id="text1797"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan1795"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">14</tspan></text>
+            </g>
+            <g
+               transform="translate(100.50424,139.12848)"
+               id="g1799">
+              <text
+                 id="text1803"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1801"
+                   y="0"
+                   x="0">8</tspan></text>
+            </g>
+            <g
+               transform="translate(100.50424,154.55705)"
+               id="g1805">
+              <text
+                 id="text1809"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1807"
+                   y="0"
+                   x="0">2</tspan></text>
+            </g>
+            <g
+               transform="translate(100.50424,169.98562)"
+               id="g1811">
+              <text
+                 id="text1815"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan1813"
+                   y="0"
+                   x="0">7</tspan></text>
+            </g>
+            <g
+               transform="translate(-5.653125,193.89857)"
+               id="g1817" />
+          </g>
+        </g>
+        <g
+           transform="matrix(0.35277777,0,0,-0.35277777,158.29157,278.27016)"
+           inkscape:label="title_figure_RCBD_Sudoku"
+           id="g2053">
+          <g
+             id="g2057">
+            <g
+               clip-path="url(#clipPath2063)"
+               id="g2059">
+              <g
+                 transform="matrix(93,0,0,155,18.514286,25.898571)"
+                 id="g2065">
+                <image
+                   id="image2067"
+                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAKCAYAAACXDi8zAAAABHNCSVQICAgIfAhkiAAAAHdJREFUCJlNz6EVwlAQRNHXBTZNoNNRJA1ExqcdVCQN4FIANVzEJ+fgd+7M9pKHfKKD3HmnPbLJyZo5WqgFPXVjkkuogzkjbrNnsNZMGvYvmVM5fTLiyzVgUzf2eBnF1n5sz3FxDPtix6p3rMnpodE1N56a5J/9AqKhmDmYlog0AAAAAElFTkSuQmCC"
+                   transform="matrix(1,0,0,-1,0,1)"
+                   preserveAspectRatio="none"
+                   style="image-rendering:optimizeSpeed"
+                   height="1"
+                   width="1" />
+              </g>
+            </g>
+          </g>
+          <g
+             id="g2069">
+            <g
+               clip-path="url(#clipPath2075)"
+               id="g2071">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path2077"
+                 style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                 d="M 18.514286,25.898571 V 180.18429" />
+            </g>
+          </g>
+          <g
+             id="g2079">
+            <g
+               clip-path="url(#clipPath2085)"
+               id="g2081">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path2087"
+                 style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                 d="M 64.8,25.898571 V 180.18429" />
+            </g>
+          </g>
+          <g
+             id="g2089">
+            <g
+               clip-path="url(#clipPath2095)"
+               id="g2091">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path2097"
+                 style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                 d="M 111.08571,25.898571 V 180.18429" />
+            </g>
+          </g>
+          <g
+             id="g2099">
+            <g
+               clip-path="url(#clipPath2105)"
+               id="g2101">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path2107"
+                 style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                 d="M 18.514286,25.898571 H 111.08571" />
+            </g>
+          </g>
+          <g
+             id="g2109">
+            <g
+               clip-path="url(#clipPath2115)"
+               id="g2111">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path2117"
+                 style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                 d="M 18.514286,103.04143 H 111.08571" />
+            </g>
+          </g>
+          <g
+             id="g2119">
+            <g
+               clip-path="url(#clipPath2125)"
+               id="g2121">
+              <path
+                 inkscape:connector-curvature="0"
+                 id="path2127"
+                 style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                 d="M 18.514286,180.18429 H 111.08571" />
+            </g>
+          </g>
+          <g
+             id="g2129">
+            <g
+               transform="translate(20.494196,31.128482)"
+               id="g2131">
+              <text
+                 id="text2135"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan2133"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">12</tspan></text>
+            </g>
+            <g
+               transform="translate(20.494196,46.557054)"
+               id="g2137">
+              <text
+                 id="text2141"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan2139"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">10</tspan></text>
+            </g>
+            <g
+               transform="translate(20.494196,61.985625)"
+               id="g2143">
+              <text
+                 id="text2147"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan2145"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">15</tspan></text>
+            </g>
+            <g
+               transform="translate(20.494196,77.414196)"
+               id="g2149">
+              <text
+                 id="text2153"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan2151"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">11</tspan></text>
+            </g>
+            <g
+               transform="translate(23.361384,92.842768)"
+               id="g2155">
+              <text
+                 id="text2159"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2157"
+                   y="0"
+                   x="0">8</tspan></text>
+            </g>
+            <g
+               transform="translate(23.361384,108.27134)"
+               id="g2161">
+              <text
+                 id="text2165"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2163"
+                   y="0"
+                   x="0">1</tspan></text>
+            </g>
+            <g
+               transform="translate(23.361384,123.69991)"
+               id="g2167">
+              <text
+                 id="text2171"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2169"
+                   y="0"
+                   x="0">9</tspan></text>
+            </g>
+            <g
+               transform="translate(20.494196,139.12848)"
+               id="g2173">
+              <text
+                 id="text2177"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan2175"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">10</tspan></text>
+            </g>
+            <g
+               transform="translate(20.494196,154.55705)"
+               id="g2179">
+              <text
+                 id="text2183"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan2181"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">13</tspan></text>
+            </g>
+            <g
+               transform="translate(23.361384,169.98562)"
+               id="g2185">
+              <text
+                 id="text2189"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2187"
+                   y="0"
+                   x="0">3</tspan></text>
+            </g>
+            <g
+               transform="translate(38.789955,31.128482)"
+               id="g2191">
+              <text
+                 id="text2195"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2193"
+                   y="0"
+                   x="0">6</tspan></text>
+            </g>
+            <g
+               transform="translate(38.789955,46.557054)"
+               id="g2197">
+              <text
+                 id="text2201"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2199"
+                   y="0"
+                   x="0">2</tspan></text>
+            </g>
+            <g
+               transform="translate(38.789955,61.985625)"
+               id="g2203">
+              <text
+                 id="text2207"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2205"
+                   y="0"
+                   x="0">7</tspan></text>
+            </g>
+            <g
+               transform="translate(35.922768,77.414196)"
+               id="g2209">
+              <text
+                 id="text2213"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan2211"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">13</tspan></text>
+            </g>
+            <g
+               transform="translate(35.922768,92.842768)"
+               id="g2215">
+              <text
+                 id="text2219"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan2217"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">14</tspan></text>
+            </g>
+            <g
+               transform="translate(38.789955,108.27134)"
+               id="g2221">
+              <text
+                 id="text2225"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2223"
+                   y="0"
+                   x="0">5</tspan></text>
+            </g>
+            <g
+               transform="translate(35.922768,123.69991)"
+               id="g2227">
+              <text
+                 id="text2231"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan2229"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">12</tspan></text>
+            </g>
+            <g
+               transform="translate(35.922768,139.12848)"
+               id="g2233">
+              <text
+                 id="text2237"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan2235"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">15</tspan></text>
+            </g>
+            <g
+               transform="translate(38.789955,154.55705)"
+               id="g2239">
+              <text
+                 id="text2243"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2241"
+                   y="0"
+                   x="0">7</tspan></text>
+            </g>
+            <g
+               transform="translate(38.789955,169.98562)"
+               id="g2245">
+              <text
+                 id="text2249"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2247"
+                   y="0"
+                   x="0">4</tspan></text>
+            </g>
+            <g
+               transform="translate(54.218527,31.128482)"
+               id="g2251">
+              <text
+                 id="text2255"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2253"
+                   y="0"
+                   x="0">5</tspan></text>
+            </g>
+            <g
+               transform="translate(54.218527,46.557054)"
+               id="g2257">
+              <text
+                 id="text2261"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2259"
+                   y="0"
+                   x="0">1</tspan></text>
+            </g>
+            <g
+               transform="translate(54.218527,61.985625)"
+               id="g2263">
+              <text
+                 id="text2267"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2265"
+                   y="0"
+                   x="0">9</tspan></text>
+            </g>
+            <g
+               transform="translate(54.218527,77.414196)"
+               id="g2269">
+              <text
+                 id="text2273"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2271"
+                   y="0"
+                   x="0">3</tspan></text>
+            </g>
+            <g
+               transform="translate(54.218527,92.842768)"
+               id="g2275">
+              <text
+                 id="text2279"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2277"
+                   y="0"
+                   x="0">4</tspan></text>
+            </g>
+            <g
+               transform="translate(54.218527,108.27134)"
+               id="g2281">
+              <text
+                 id="text2285"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2283"
+                   y="0"
+                   x="0">6</tspan></text>
+            </g>
+            <g
+               transform="translate(54.218527,123.69991)"
+               id="g2287">
+              <text
+                 id="text2291"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2289"
+                   y="0"
+                   x="0">2</tspan></text>
+            </g>
+            <g
+               transform="translate(51.351339,139.12848)"
+               id="g2293">
+              <text
+                 id="text2297"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan2295"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">11</tspan></text>
+            </g>
+            <g
+               transform="translate(54.218527,154.55705)"
+               id="g2299">
+              <text
+                 id="text2303"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2301"
+                   y="0"
+                   x="0">8</tspan></text>
+            </g>
+            <g
+               transform="translate(51.351339,169.98562)"
+               id="g2305">
+              <text
+                 id="text2309"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan2307"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">14</tspan></text>
+            </g>
+            <g
+               transform="translate(66.779911,31.128482)"
+               id="g2311">
+              <text
+                 id="text2315"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan2313"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">11</tspan></text>
+            </g>
+            <g
+               transform="translate(69.647098,46.557054)"
+               id="g2317">
+              <text
+                 id="text2321"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2319"
+                   y="0"
+                   x="0">8</tspan></text>
+            </g>
+            <g
+               transform="translate(66.779911,61.985625)"
+               id="g2323">
+              <text
+                 id="text2327"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan2325"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">14</tspan></text>
+            </g>
+            <g
+               transform="translate(66.779911,77.414196)"
+               id="g2329">
+              <text
+                 id="text2333"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan2331"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">12</tspan></text>
+            </g>
+            <g
+               transform="translate(66.779911,92.842768)"
+               id="g2335">
+              <text
+                 id="text2339"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan2337"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">10</tspan></text>
+            </g>
+            <g
+               transform="translate(66.779911,108.27134)"
+               id="g2341">
+              <text
+                 id="text2345"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan2343"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">15</tspan></text>
+            </g>
+            <g
+               transform="translate(69.647098,123.69991)"
+               id="g2347">
+              <text
+                 id="text2351"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2349"
+                   y="0"
+                   x="0">7</tspan></text>
+            </g>
+            <g
+               transform="translate(69.647098,139.12848)"
+               id="g2353">
+              <text
+                 id="text2357"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2355"
+                   y="0"
+                   x="0">5</tspan></text>
+            </g>
+            <g
+               transform="translate(69.647098,154.55705)"
+               id="g2359">
+              <text
+                 id="text2363"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2361"
+                   y="0"
+                   x="0">1</tspan></text>
+            </g>
+            <g
+               transform="translate(69.647098,169.98562)"
+               id="g2365">
+              <text
+                 id="text2369"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2367"
+                   y="0"
+                   x="0">9</tspan></text>
+            </g>
+            <g
+               transform="translate(82.208482,31.128482)"
+               id="g2371">
+              <text
+                 id="text2375"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan2373"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">13</tspan></text>
+            </g>
+            <g
+               transform="translate(85.07567,46.557054)"
+               id="g2377">
+              <text
+                 id="text2381"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2379"
+                   y="0"
+                   x="0">4</tspan></text>
+            </g>
+            <g
+               transform="translate(85.07567,61.985625)"
+               id="g2383">
+              <text
+                 id="text2387"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2385"
+                   y="0"
+                   x="0">5</tspan></text>
+            </g>
+            <g
+               transform="translate(85.07567,77.414196)"
+               id="g2389">
+              <text
+                 id="text2393"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2391"
+                   y="0"
+                   x="0">1</tspan></text>
+            </g>
+            <g
+               transform="translate(85.07567,92.842768)"
+               id="g2395">
+              <text
+                 id="text2399"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2397"
+                   y="0"
+                   x="0">9</tspan></text>
+            </g>
+            <g
+               transform="translate(82.208482,108.27134)"
+               id="g2401">
+              <text
+                 id="text2405"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan2403"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">11</tspan></text>
+            </g>
+            <g
+               transform="translate(82.208482,123.69991)"
+               id="g2407">
+              <text
+                 id="text2411"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan2409"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">13</tspan></text>
+            </g>
+            <g
+               transform="translate(85.07567,139.12848)"
+               id="g2413">
+              <text
+                 id="text2417"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2415"
+                   y="0"
+                   x="0">3</tspan></text>
+            </g>
+            <g
+               transform="translate(82.208482,154.55705)"
+               id="g2419">
+              <text
+                 id="text2423"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan2421"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">12</tspan></text>
+            </g>
+            <g
+               transform="translate(85.07567,169.98562)"
+               id="g2425">
+              <text
+                 id="text2429"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2427"
+                   y="0"
+                   x="0">6</tspan></text>
+            </g>
+            <g
+               transform="translate(100.50424,31.128482)"
+               id="g2431">
+              <text
+                 id="text2435"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2433"
+                   y="0"
+                   x="0">3</tspan></text>
+            </g>
+            <g
+               transform="translate(97.637054,46.557054)"
+               id="g2437">
+              <text
+                 id="text2441"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan2439"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">15</tspan></text>
+            </g>
+            <g
+               transform="translate(100.50424,61.985625)"
+               id="g2443">
+              <text
+                 id="text2447"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2445"
+                   y="0"
+                   x="0">6</tspan></text>
+            </g>
+            <g
+               transform="translate(100.50424,77.414196)"
+               id="g2449">
+              <text
+                 id="text2453"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2451"
+                   y="0"
+                   x="0">2</tspan></text>
+            </g>
+            <g
+               transform="translate(100.50424,92.842768)"
+               id="g2455">
+              <text
+                 id="text2459"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2457"
+                   y="0"
+                   x="0">7</tspan></text>
+            </g>
+            <g
+               transform="translate(100.50424,108.27134)"
+               id="g2461">
+              <text
+                 id="text2465"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2463"
+                   y="0"
+                   x="0">8</tspan></text>
+            </g>
+            <g
+               transform="translate(97.637054,123.69991)"
+               id="g2467">
+              <text
+                 id="text2471"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan2469"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">14</tspan></text>
+            </g>
+            <g
+               transform="translate(100.50424,139.12848)"
+               id="g2473">
+              <text
+                 id="text2477"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2475"
+                   y="0"
+                   x="0">4</tspan></text>
+            </g>
+            <g
+               transform="translate(97.637054,154.55705)"
+               id="g2479">
+              <text
+                 id="text2483"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"
+                 y="0"><tspan
+                   id="tspan2481"
+                   sodipodi:role="line"
+                   y="0"
+                   x="0 5.724">10</tspan></text>
+            </g>
+            <g
+               transform="translate(100.50424,169.98562)"
+               id="g2485">
+              <text
+                 id="text2489"
+                 style="font-variant:normal;font-weight:normal;font-size:9px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 transform="scale(1,-1)"><tspan
+                   id="tspan2487"
+                   y="0"
+                   x="0">2</tspan></text>
+            </g>
+            <g
+               transform="translate(-5.653125,193.89857)"
+               id="g2491" />
+          </g>
+        </g>
+      </g>
+      <rect
+         y="212.14192"
+         x="73.365486"
+         height="61.204723"
+         width="40.491333"
+         id="rect2719"
+         style="opacity:0.5;fill:#ffffff;stroke:none;stroke-width:0.4;stroke-miterlimit:4;stroke-dasharray:none" />
+      <rect
+         y="211.47374"
+         x="204.12711"
+         height="61.204723"
+         width="40.491337"
+         id="rect2719-8"
+         style="opacity:0.5;fill:#ffffff;stroke:none;stroke-width:0.4;stroke-miterlimit:4;stroke-dasharray:none" />
+      <text
+         id="text2884"
+         y="203.53354"
+         x="115.10785"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0816951"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:center;text-anchor:middle;stroke-width:0.0816951"
+           y="203.53354"
+           x="115.10785"
+           id="tspan2882"
+           sodipodi:role="line">augmented</tspan><tspan
+           id="tspan2886"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:center;text-anchor:middle;stroke-width:0.0816951"
+           y="210.5891"
+           x="115.10785"
+           sodipodi:role="line">design</tspan></text>
+      <text
+         id="text2884-0"
+         y="203.53354"
+         x="202.6799"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0816951"
+         xml:space="preserve"><tspan
+           id="tspan2886-2"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:center;text-anchor:middle;stroke-width:0.0816951"
+           y="203.53354"
+           x="202.6799"
+           sodipodi:role="line">randomized complete</tspan><tspan
+           id="tspan2911"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:center;text-anchor:middle;stroke-width:0.0816951"
+           y="210.5891"
+           x="202.6799"
+           sodipodi:role="line">block design (RCBD)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0816951"
+         x="137.42818"
+         y="275.52319"
+         id="text2917"><tspan
+           sodipodi:role="line"
+           x="137.42818"
+           y="275.52319"
+           style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.0816951"
+           id="tspan2915">Sudoku</tspan><tspan
+           id="tspan2921"
+           sodipodi:role="line"
+           x="137.42818"
+           y="281.69681"
+           style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.0816951">optimized</tspan></text>
+      <text
+         id="text2927"
+         y="275.52319"
+         x="93.922684"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0816951"
+         xml:space="preserve"><tspan
+           style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.0816951"
+           y="275.52319"
+           x="93.922684"
+           sodipodi:role="line"
+           id="tspan2925">random</tspan></text>
+      <text
+         id="text2935"
+         y="275.52319"
+         x="181.2571"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0816951"
+         xml:space="preserve"><tspan
+           id="tspan2931"
+           style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.0816951"
+           y="275.52319"
+           x="181.2571"
+           sodipodi:role="line">Sudoku</tspan><tspan
+           style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.0816951"
+           y="281.69681"
+           x="181.2571"
+           sodipodi:role="line"
+           id="tspan2933">optimized</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0816951"
+         x="224.38354"
+         y="275.52319"
+         id="text2939"><tspan
+           id="tspan2937"
+           sodipodi:role="line"
+           x="224.38354"
+           y="275.52319"
+           style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.0816951">random</tspan></text>
+    </g>
+  </g>
+</svg>
