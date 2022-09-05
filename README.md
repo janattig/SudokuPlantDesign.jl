@@ -2,7 +2,7 @@
 
 Julia package for optimizing Sudoku-like field designs in plant breeding.
 
-
+![title_figure](figures/title_figure.png)
 
 
 ## Installation
