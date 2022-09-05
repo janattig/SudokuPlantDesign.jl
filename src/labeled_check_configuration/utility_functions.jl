@@ -11,7 +11,8 @@ function show_configuration(
         cmap="gist_rainbow",
         check_labels::Bool=false,
         dpi = 300,
-        show_coordinates::Bool=false
+        show_coordinates::Bool=false,
+        plot_position_order::Bool=false
     ) where {C <: CheckConfiguration, LC <: LabeledCheckConfiguration{C}}
 
     # show the configuration
@@ -47,7 +48,22 @@ function show_configuration(
         end
     end
 
+    if plot_position_order
+        xvals = zeros(maximum(lconf.indices))
+        yvals = zeros(maximum(lconf.indices))
+
+        for i in 1:sizex(lconf)
+            for j in 1:sizey(lconf)
+                xvals[lconf.indices[i,j]] = i - 0.5
+                yvals[lconf.indices[i,j]] = j - 0.5
+            end
+        end
+
+        plot(xvals, yvals, lw=15, alpha=0.4, color="r", zorder=2)
+    end
+
 end
+
 
 
 
