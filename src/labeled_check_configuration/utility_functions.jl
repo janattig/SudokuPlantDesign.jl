@@ -54,12 +54,14 @@ function show_configuration(
 
         for i in 1:sizex(lconf)
             for j in 1:sizey(lconf)
-                xvals[lconf.indices[i,j]] = i - 0.5
-                yvals[lconf.indices[i,j]] = j - 0.5
+                if lconf.indices[i,j] > 0
+                    xvals[lconf.indices[i,j]] = i - 0.5
+                    yvals[lconf.indices[i,j]] = j - 0.5
+                end
             end
         end
 
-        plot(xvals, yvals, lw=15, alpha=0.4, color="r", zorder=2)
+        plot(xvals, yvals, lw=15*zoom, alpha=0.4, color="r", zorder=2)
     end
 
 end
