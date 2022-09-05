@@ -33,6 +33,7 @@ In total, you can find the following example files:
 - example of a Sudoku randomized complete block design (RCBD) [[notebook](examples/sudoku_RCBD.ipynb)]
 - basic usage example of the optimization process [[notebook](examples/sudoku_basic_optimization.ipynb)]
 - advanced overview over the optimization process [[notebook](examples/sudoku_advanced_optimization.ipynb)]
+- example on how to create a field plan from a Sudoku design [[notebook](examples/sudoku_field_plan.ipynb)]
 
 
 
