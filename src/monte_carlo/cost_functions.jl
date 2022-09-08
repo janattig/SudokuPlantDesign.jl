@@ -202,7 +202,7 @@ export K_checks_per_type_per_column
 # 5. NEIGHBORS
 #####################
 
-function K_neighbors_same_check_const(conf :: C, cost :: Float64) :: Float64 where {C <: CheckConfiguration}
+function K_neighbors_same_check_const(conf :: C, cost :: Number) :: Float64 where {C <: CheckConfiguration}
     kosten = 0
     for i in 1:conf.N
         kosten += sum(conf.neighbor_pairs[i,i])
@@ -210,7 +210,7 @@ function K_neighbors_same_check_const(conf :: C, cost :: Float64) :: Float64 whe
     return kosten*cost
 end
 export K_neighbors_same_check_const
-function K_neighbors_same_check_dmax_const(conf :: C, dmax::Int64, cost :: Float64) :: Float64 where {C <: CheckConfiguration}
+function K_neighbors_same_check_dmax_const(conf :: C, dmax::Int, cost :: Number) :: Float64 where {C <: CheckConfiguration}
     kosten = 0
     for i in 1:conf.N
         kosten += sum(conf.neighbor_pairs[i,i][1:min(conf.dmax, dmax)])
@@ -229,7 +229,7 @@ function K_neighbors_same_check_functional(conf :: C, f :: Function) :: Float64 
 end
 export K_neighbors_same_check_functional
 
-function K_neighbors_different_check_const(conf :: C, cost :: Float64) :: Float64 where {C <: CheckConfiguration}
+function K_neighbors_different_check_const(conf :: C, cost :: Number) :: Float64 where {C <: CheckConfiguration}
     kosten = 0
     for i in 1:conf.N
         for j in i+1:conf.N
@@ -239,7 +239,7 @@ function K_neighbors_different_check_const(conf :: C, cost :: Float64) :: Float6
     return kosten*cost
 end
 export K_neighbors_different_check_const
-function K_neighbors_different_check_dmax_const(conf :: C, dmax::Int64, cost :: Float64) :: Float64 where {C <: CheckConfiguration}
+function K_neighbors_different_check_dmax_const(conf :: C, dmax::Int, cost :: Number) :: Float64 where {C <: CheckConfiguration}
     kosten = 0
     for i in 1:conf.N
         for j in i+1:conf.N
