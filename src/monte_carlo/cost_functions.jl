@@ -95,7 +95,19 @@ function K_checks_per_type_per_block(conf :: C, num_checks :: Integer) :: Float6
 end
 export K_checks_per_type_per_block
 
-
+# exact number of checks per row within a block
+function K_checks_per_row_per_block(conf :: C, num_checks :: Integer) :: Float64 where {C <: CheckConfiguration}
+    kosten = 0
+    for i in 1:blocksx(conf)
+        for j in 1:blocksy(conf)
+            for z in 1:blocksizey(conf, i,j)
+                kosten += (sum(getblock(conf.configuration,i,j)[:,z] .> 0) - num_checks)^2
+            end
+        end
+    end
+    return kosten / (sizey(conf)*conf.N)
+end
+export K_checks_per_row_per_block
 
 
 #####################
