@@ -12,7 +12,8 @@ function show_configuration(
         check_labels::Bool=false,
         dpi = 300,
         show_coordinates::Bool=false,
-        plot_position_order::Bool=false
+        plot_position_order::Bool=false,
+        omit_labels :: Vector{<:Int} = Int[]
     ) where {C <: CheckConfiguration, LC <: LabeledCheckConfiguration{C}}
 
     # show the configuration
@@ -22,21 +23,17 @@ function show_configuration(
 
     # generate labels (including indices)
     plot_labels = deepcopy(lconf.labels)
-    for i in 1:sizex(lconf)
-        for j in 1:sizey(lconf)
-            insert!(plot_labels[i,j], 1, "#"*string(lconf.indices[i,j]))
-            if is_check(lconf.configuration, i,j) && check_labels
-                insert!(plot_labels[i,j], 1, "check("*string(get_check(lconf.configuration,i,j))*")")
-            end
-        end
-    end
-
     # plot labels
     for i in 1:sizex(lconf)
         for j in 1:sizey(lconf)
             if !is_empty(lconf.configuration, i,j)
-                plot_label = plot_labels[i,j][1]
-                for l in plot_labels[i,j][2:end]
+                relevant_labels = plot_labels[i,j][setdiff(1:length(plot_labels[i,j]), omit_labels)]
+                insert!(relevant_labels, 1, "#"*string(lconf.indices[i,j]))
+                if is_check(lconf.configuration, i,j) && check_labels
+                    insert!(relevant_labels, 1, "check("*string(get_check(lconf.configuration,i,j))*")")
+                end
+                plot_label = relevant_labels[1]
+                for l in relevant_labels[2:end]
                     plot_label = plot_label * "\n" * l
                 end
                 # label the check with a the respective labels
